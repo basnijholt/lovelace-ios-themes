@@ -10,7 +10,7 @@ ios:
   light-primary-color: '#B6B6C1'
   primary-background-color: "#2e2e2e"
   secondary-background-color: rgba(25, 25, 25, 0.7)
-  divider-color: "#FFF"
+  divider-color: "#98989d"  # from Apple systemGray dark mode
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -39,10 +39,10 @@ ios:
   # Labels
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
-  label-badge-red: "rgba(255, 128, 0, 0.7)"
+  label-badge-red: "rgba(255, 159, 9, 0.7)"  # from Apple systemOrange dark mode
   # Cards
   paper-listbox-background-color: var(--primary-background-color)
-  ha-card-border-radius: 25px
+  ha-card-border-radius: 20px
   ha-card-background: rgba(10, 10, 10, 0.4)
   paper-card-background-color: var(--ha-card-background)
   # Toggles
@@ -56,9 +56,9 @@ ios:
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.5)
   more-info-header-background: rgba(25, 25, 25, 0.5)
-  switch-checked-color: "#30d158"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
-  switch-checked-track-color: "#30d158"
-  switch-checked-button-color: "#30d158"
+  switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
+  switch-checked-track-color: "#30d257"  # from Apple systemGreen dark mode
+  switch-checked-button-color: "#FFF"
   # Custom
   mini-media-player-accent-color: var(--primary-text-color)
   mini-media-player-artwork-opacity: 0.7
