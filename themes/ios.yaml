@@ -4,7 +4,7 @@
 #
 ios:
   # background from https://9to5mac.com/2019/08/02/download-ios-13-homekit-home-app-wallpapers/
-  background-image: 'center / cover no-repeat url("/local/homekit-bg-3.png") fixed'
+  background-image: 'center / cover no-repeat url("/local/backgrounds/homekit-bg-3.png") fixed'
   accent-color: "#FFF"
   primary-color: "rgba(255,128,0,1)"
   light-primary-color: '#B6B6C1'

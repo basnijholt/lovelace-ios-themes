@@ -38,7 +38,7 @@
 
 ## Installation
 
-Add the following code to your `configuration.yaml` file (reboot required).
+1. Add the following code to your `configuration.yaml` file (reboot required).
 
 ```yaml
 frontend:
@@ -47,11 +47,14 @@ frontend:
   ... # your configuration.
 ```
 
-Add the following line to your `lovelace-ui.yaml` or use the RAW editor:
+2. Move [backgrounds folder](backgrounds) to `/config/www/`.
+
+3. Add the following line to your `lovelace-ui.yaml` or use the RAW editor:
 ```yaml
 background: var(--background-image)
 ```
-(Optional) add the following to the same file to make the header smaller (you need to install [cch](https://github.com/maykar/compact-custom-header) too):
+
+4. (Optional) add the following to the same file to make the header smaller (you need to install [cch](https://github.com/maykar/compact-custom-header) too):
 ```yaml
 cch:
   background: rgba(155,155,155,.25)
