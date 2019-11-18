@@ -3,7 +3,7 @@
 [![Action Status](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/workflows/yamllint/badge.svg)](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/actions)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://community.home-assistant.io/t/ios-dark-mode-theme/149136)
-[!Github Stars](https://img.shields.io/github/stars/basnijholt/lovelace-ios-dark-mode-theme)](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)
+[![Github Stars](https://img.shields.io/github/stars/basnijholt/lovelace-ios-dark-mode-theme)](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)
 
 > The iOS Dark Mode Theme by @basnijholt and modified from @kalkih's [Gist](https://gist.github.com/kalkih/fbe84b371ef7f992c3bd51b235e2c299)
 
