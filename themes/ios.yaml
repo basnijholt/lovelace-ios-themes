@@ -31,9 +31,9 @@ ios:
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: "#0984ff"  # from Apple systemBlue dark mode
   paper-slider-secondary-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: rgba(255,255,255,.5)
+  paper-slider-container-color: rgba(255, 255, 255, 0.5)
   paper-slider-font-color: "#000"
   ha-slider-background: none !important
   # Labels
