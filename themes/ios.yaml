@@ -43,7 +43,7 @@ ios:
   # Cards
   paper-listbox-background-color: var(--primary-background-color)
   ha-card-border-radius: 25px
-  ha-card-background: rgba(66, 66, 66, 0.4)
+  ha-card-background: rgba(10, 10, 10, 0.4)
   paper-card-background-color: var(--ha-card-background)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
