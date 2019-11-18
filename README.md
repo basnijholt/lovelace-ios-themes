@@ -70,7 +70,6 @@ cch:
 2. Search for `iOS Dark Mode`.
 3. Navigate to `iOS Dark Mode` theme.
 4. Press `Install`.
-5. Go to services and trigger the `frontend.reload_themes` service.
 
 ### Manual
 
