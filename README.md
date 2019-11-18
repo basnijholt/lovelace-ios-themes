@@ -12,6 +12,9 @@
 ![Theme - Overview](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-overview.jpg)
 ![Theme - Overview 2](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-overview-2.jpg)
 
+With alternative background ([`backgrounds/homekit-bg-4.jpeg`](backgrounds/homekit-bg-4.jpeg)):
+![Theme - alternative background](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-alternative-background.jpg)
+
 ### Map
 
 ![Theme - Map](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-map.jpg)
