@@ -58,7 +58,7 @@ background: var(--background-image)
 3. (Optional) add the following to the same file to make the header smaller (you need to install [cch](https://github.com/maykar/compact-custom-header) too):
 ```yaml
 cch:
-  background: rgba(155,155,155,.25)
+  background: rgba(155, 155, 155, 0.25)
   clock_format: 24
   options: clock
   swipe_animate: fade
