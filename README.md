@@ -1,6 +1,6 @@
 # iOS Dark Mode Theme
 
-[![Build Status](https://www.travis-ci.org/basnijholt/lovelace-ios-dark-mode-theme.svg?branch=master)](https://www.travis-ci.org/basnijholt/lovelace-ios-dark-mode-theme)
+[![Action Status](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/workflows/yamllint/badge.svg)](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/actions)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
 > The iOS Dark Mode Theme by @basnijholt and modified from @kalkih's [Gist](https://gist.github.com/kalkih/fbe84b371ef7f992c3bd51b235e2c299)
