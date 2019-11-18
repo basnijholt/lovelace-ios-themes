@@ -4,7 +4,7 @@
 #
 ios:
   # Global
-  background-image: 'center / cover no-repeat url("/local/backgrounds/homekit-bg-3.png") fixed'
+  background-image: 'center / cover no-repeat url("/local/backgrounds/homekit-bg-3.jpeg") fixed'
   accent-color: "#FFF"
   primary-color: "rgba(255, 128, 0, 1)"
   light-primary-color: '#B6B6C1'
