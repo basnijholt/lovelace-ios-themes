@@ -15,7 +15,7 @@ ios:
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
   text-primary-color: "#FFF"
-  disabled-text-color: "#4E4E66"
+  disabled-text-color: "#232323"
   text-dark-color: '#FFF'
   # Sidebar Menu
   sidebar-icon-color: "#B6B6C1"
