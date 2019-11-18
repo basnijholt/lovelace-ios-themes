@@ -8,7 +8,7 @@ ios:
   accent-color: "#FFF"
   primary-color: "rgba(255, 128, 0, 1)"
   light-primary-color: '#B6B6C1'
-  primary-background-color: "#23232E"
+  primary-background-color: "#2e2e2e"
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#FFF"
   # Text
