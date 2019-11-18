@@ -9,31 +9,32 @@
 
 ### Overview
 
-![Theme - Overview](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-overview.png)
+![Theme - Overview](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-overview.jpg)
+![Theme - Overview 2](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-overview-2.jpg)
 
 ### Map
 
-![Theme - Map](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-map.png)
+![Theme - Map](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-map.jpg)
 
-### Logbook
+### Hass.io
 
-![Theme - Logbook](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-logbook.png)
+![Theme - Hass.io](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-hassio.jpg)
 
 ### History
 
-![Theme - History](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-history.png)
+![Theme - History](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-history.jpg)
 
 ### Developer Tools
 
-![Theme - Developer Tools](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-developer-tools.png)
+![Theme - Developer Tools](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-developer-tools.jpg)
 
 ### Configuration
 
-![Theme - Configuration](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-configuration.png)
+![Theme - Configuration](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-configuration.jpg)
 
 ### Profile
 
-![Theme - Profile](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-profile.png)
+![Theme - Profile](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-profile.jpg)
 
 ## Installation
 
