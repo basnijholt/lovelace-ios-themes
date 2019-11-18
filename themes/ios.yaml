@@ -6,7 +6,7 @@ ios:
   # Global
   background-image: 'center / cover no-repeat url("/local/backgrounds/homekit-bg-3.png") fixed'
   accent-color: "#FFF"
-  primary-color: "rgba(255,128,0,1)"
+  primary-color: "rgba(255, 128, 0, 1)"
   light-primary-color: '#B6B6C1'
   primary-background-color: "#23232E"
   secondary-background-color: rgba(25, 25, 25, 0.7)
@@ -39,7 +39,7 @@ ios:
   # Labels
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
-  label-badge-red: "rgba(255,128,0,.5)"
+  label-badge-red: "rgba(255, 128, 0, 0.7)"
   # Cards
   paper-listbox-background-color: var(--primary-background-color)
   ha-card-border-radius: 25px
