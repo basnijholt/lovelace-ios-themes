@@ -56,7 +56,9 @@ ios:
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.5)
   more-info-header-background: rgba(25, 25, 25, 0.5)
-  switch-checked-color: "#30d158"  # XXX: switch__thumb should be grey, use https://github.com/home-assistant/home-assistant-polymer/pull/4203
+  switch-checked-color: "#30d158"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
+  switch-checked-track-color: "#30d158"
+  switch-checked-button-color: "#30d158"
   # Custom
   mini-media-player-accent-color: var(--primary-text-color)
   mini-media-player-artwork-opacity: 0.7
