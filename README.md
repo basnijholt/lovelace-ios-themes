@@ -68,6 +68,8 @@ cch:
   swipe_prevent_default: true
 ```
 
+4. (Optional) change the background to a different one, see [`backgrounds/README.md`](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/tree/master/backgrounds).
+
 ### HACS
 
 1. Go to the Community Store.
