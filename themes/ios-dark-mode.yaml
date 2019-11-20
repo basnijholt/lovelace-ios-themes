@@ -24,7 +24,7 @@ ios-dark-mode:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"
+  state-icon-active-color: "rgba(255, 214, 10, 1)"
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
   paper-slider-knob-color: "#FFF"
