@@ -65,7 +65,3 @@ ios-dark-mode:
   # Custom
   mcg-title-letter-spacing: .15em
   # mini-media-player-artwork-opacity: 0.7  # causing some bug
-  # paper-font-body1_-_font-weight: 500  # causing some bug
-  # paper-font-display1_-_font-weight: 500  # causing some bug
-  # paper-font-display2_-_font-weight: 500  # causing some bug
-  # paper-font-display3_-_font-weight: 500  # causing some bug
