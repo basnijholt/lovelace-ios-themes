@@ -10,6 +10,7 @@ ios-dark-mode:
   primary-background-color: "#2e2e2e"  # dark gray
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
+  accent-color: white
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -59,14 +60,12 @@ ios-dark-mode:
   switch-checked-button-color: "#FFF"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.5)
+  paper-item-icon-color: white  # also makes mini-media-player icon white
   more-info-header-background: rgba(25, 25, 25, 0.5)
   # Custom
-  mini-media-player-accent-color: var(--primary-text-color)
-  mini-media-player-artwork-opacity: 0.7
   mcg-title-letter-spacing: .15em
-  paper-font-body1_-_font-weight: 500
-  paper-font-display1_-_font-weight: 500
-  paper-font-display2_-_font-weight: 500
-  paper-font-display3_-_font-weight: 500
-  mini-media-player-base-color: white
-  mini-media-player-icon-color: white
+  # mini-media-player-artwork-opacity: 0.7  # causing some bug
+  # paper-font-body1_-_font-weight: 500  # causing some bug
+  # paper-font-display1_-_font-weight: 500  # causing some bug
+  # paper-font-display2_-_font-weight: 500  # causing some bug
+  # paper-font-display3_-_font-weight: 500  # causing some bug
