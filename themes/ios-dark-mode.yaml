@@ -60,8 +60,10 @@ ios-dark-mode:
   switch-checked-button-color: "#FFF"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.5)
-  paper-item-icon-color: white  # also makes mini-media-player icon white
+  paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   # Custom
   mcg-title-letter-spacing: .15em
+  mini-media-player-base-color: white
+  mini-media-player-icon-color: white
   # mini-media-player-artwork-opacity: 0.7  # causing some bug
