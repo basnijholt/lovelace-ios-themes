@@ -26,10 +26,6 @@ With alternative background ([`backgrounds/homekit-bg-4.jpeg`](backgrounds/homek
 
 ![Theme - Hass.io](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-hassio.jpg)
 
-### History
-
-![Theme - History](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-history.jpg)
-
 ### Developer Tools
 
 ![Theme - Developer Tools](https://raw.githubusercontent.com/basnijholt/lovelace-ios-dark-mode-theme/master/docs/theme-developer-tools.jpg)
