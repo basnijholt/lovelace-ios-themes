@@ -62,7 +62,7 @@ custom_header:
   swipe_prevent_default: true
   compact_mode: true
   button_text:
-    options: '{{ hours12 }}:{{ minutesLZ }}'
+    options: '{{ hours24 }}:{{ minutesLZ }}'
 ```
 
 4. (Optional) change the background to a different one, see [`backgrounds/README.md`](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/tree/master/backgrounds).
