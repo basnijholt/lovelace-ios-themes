@@ -54,14 +54,15 @@ frontend:
 background: var(--background-image)
 ```
 
-3. (Optional) add the following to the same file to make the header smaller (you need to install [cch](https://github.com/maykar/compact-custom-header) too):
+3. (Optional) add the following to the same file to make the header smaller (you need to install [`custom-header`](https://github.com/maykar/custom-header) too):
 ```yaml
-cch:
-  background: rgba(155, 155, 155, 0.25)
-  clock_format: 24
-  options: clock
+custom_header:
+  background: 'rgba(155, 155, 155, 0.25)'
   swipe_animate: fade
   swipe_prevent_default: true
+  compact_mode: true
+  button_text:
+    options: '{{ hours12 }}:{{ minutesLZ }}'
 ```
 
 4. (Optional) change the background to a different one, see [`backgrounds/README.md`](https://github.com/basnijholt/lovelace-ios-dark-mode-theme/tree/master/backgrounds).
