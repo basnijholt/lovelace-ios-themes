@@ -12,7 +12,15 @@ def parse(x):
     return x if "#" not in x else f'"{x}"'
 
 
-for color in ["blue", "green", "blue-red", "dark-orange"]:
+for color in [
+    "blue-red",
+    "dark-blue",
+    "dark-green",
+    "light-blue",
+    "light-green",
+    "orange",
+    "red",
+]:
     for which in ["light", "dark"]:
         settings = {k: parse(v[which]) for k, v in all_settings.items()}
 
