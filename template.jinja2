@@ -1,0 +1,68 @@
+---
+#
+# iOS {{ which.capitalize() }} Mode Theme
+#
+ios-{{ which }}-mode:
+  # Global
+  background-image: "center / cover no-repeat fixed url('data:image/jpeg;base64,{{ background_base64 }}')"
+  primary-color: {{ primary_color }}  # from Apple systemOrange {{ which }} mode
+  light-primary-color: {{ light_primary_color }}  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  primary-background-color: {{ primary_background_color }}  # systemGray5 {{ which }} mode
+  secondary-background-color: {{ secondary_background_color }}
+  divider-color: {{ divider_color }}  # from Apple systemGray {{ which }} mode
+  accent-color: rgba(255, 159, 9, 1)
+  # Text
+  primary-text-color: {{ primary_text_color }}
+  secondary-text-color: {{ secondary_text_color }}
+  text-primary-color: "#FFF"
+  disabled-text-color: "#232323"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
+  text-dark-color: "#FFF"
+  # Sidebar Menu
+  sidebar-icon-color: var(--light-primary-color)
+  sidebar-text-color: {{ sidebar_text_color }}
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: {{ sidebar_selected_icon_color }}  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # States and Badges
+  state-icon-color: "#FFF"
+  state-icon-active-color: {{ state_icon_active_color }}  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-unavailable-color: var(--disabled-text-color)
+  # Sliders
+  paper-slider-knob-color: "#FFF"
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: {{ paper_slider_active_color }}  # from Apple systemBlue {{ which }} mode
+  paper-slider-secondary-color: var(--paper-slider-knob-color)
+  paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  paper-slider-font-color: "#000"
+  ha-slider-background: none !important
+  # Labels
+  label-badge-background-color: "#23232E"
+  label-badge-text-color: "#F1F1F1"
+  label-badge-red: {{ label_badge_red }}  # from Apple systemOrange {{ which }} mode
+  # Cards
+  card-background-color: var(--secondary-background-color)  # Unused entities table background
+  paper-listbox-background-color: var(--primary-background-color)
+  ha-card-border-radius: 20px
+  ha-card-background: {{  ha_card_background }}
+  paper-card-background-color: var(--ha-card-background)
+  # Toggles
+  paper-toggle-button-checked-button-color: "#484848"
+  paper-toggle-button-checked-bar-color: "#484848"
+  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+  # Table row
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  # Switches
+  switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
+  switch-checked-track-color: {{ switch_checked_track_color }}  # from Apple systemGreen {{ which }} mode
+  switch-checked-button-color: "#FFF"
+  # Other
+  paper-dialog-background-color: {{ paper_dialog_background_color }}
+  paper-item-icon-color: {{ paper_item_icon_color }}  # also should mini-media-player icon white (but doesn't work by itself)
+  more-info-header-background: {{ more_info_header_background }}
+  # Custom
+  mcg-title-letter-spacing: .15em
+  mini-media-player-base-color: white
+  mini-media-player-icon-color: white
