@@ -1,13 +1,13 @@
-# iOS Light Mode Theme
+# iOS Themes
 
 [![Action Status](https://github.com/basnijholt/lovelace-ios-light-mode-theme/workflows/yamllint/badge.svg)](https://github.com/basnijholt/lovelace-ios-light-mode-theme/actions)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://community.home-assistant.io/t/ios-light-mode-theme/149136)
 [![Github Stars](https://img.shields.io/github/stars/basnijholt/lovelace-ios-light-mode-theme)](https://github.com/basnijholt/lovelace-ios-light-mode-theme)
 
-> The iOS Light Mode Theme by @basnijholt and modified from @kalkih's [Gist](https://gist.github.com/kalkih/fbe84b371ef7f992c3bd51b235e2c299)
+> The iOS Theme by @basnijholt and modified from @kalkih's [Gist](https://gist.github.com/kalkih/fbe84b371ef7f992c3bd51b235e2c299)
 
-An alternative to the [**iOS Dark Mode Theme**](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
+Offers alternatives to the [**iOS Dark Mode Theme**](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
 
 ## Screenshots
 
@@ -35,8 +35,6 @@ background: var(--background-image)
 ```yaml
 custom_header:
   background: 'rgba(155, 155, 155, 0.25)'
-  swipe_animate: fade
-  swipe_prevent_default: true
   compact_mode: true
   button_text:
     options: '{{ hours24 }}:{{ minutesLZ }}'
