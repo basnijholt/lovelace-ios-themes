@@ -64,3 +64,25 @@ Or using submodules:
 cd themes/
 git submodule add https://github.com/basnijholt/lovelace-ios-themes.git
 ```
+
+## Automations to easily switch
+It is recommended to use [these automations (`basnijholt/home-assistant-config/automations/frontend.yaml`)](https://github.com/basnijholt/home-assistant-config/blob/master/automations/frontend.yaml) in combination with these:
+```yaml
+input_select:
+  theme:
+    options:
+      - blue-red
+      - dark-blue
+      - dark-green
+      - light-blue
+      - light-green
+      - orange
+      - red
+    icon: mdi:format-color-fill
+  
+input_boolean:
+  dark_mode:
+    name: Dark mode
+    icon: mdi:theme-light-dark
+```
+Then add `input_select.theme` and `input_boolean.dark_mode` to your Lovelace UI.
