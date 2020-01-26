@@ -21,14 +21,12 @@ for background in Path("backgrounds").glob("homekit-bg-*.jpg"):
         settings = {k: parse(v[which]) for k, v in all_settings.items()}
 
         with open("template.jinja2") as f:
-            temp = "".join(f.readlines())
-
-        t = jinja2.Template(temp)
+            template = jinja2.Template("".join(f.readlines()))
 
         with background.open("rb") as f:
             background_base64 = base64.b64encode(f.read()).decode()
 
-        result = t.render(
+        result = template.render(
             **settings, which=which, background_base64=background_base64, color=color
         )
         with open(f"themes/ios-{which}-mode-{color}.yaml", "w") as f:
