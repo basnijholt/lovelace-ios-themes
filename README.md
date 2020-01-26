@@ -7,7 +7,8 @@
 
 > The iOS Theme by @basnijholt and modified from @kalkih's [Gist](https://gist.github.com/kalkih/fbe84b371ef7f992c3bd51b235e2c299)
 
-Offers alternatives to the [**iOS Dark Mode Theme**](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
+Offers alternatives to the [*iOS Dark Mode Theme*](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
+All the **14(!)** themes in [`themes/`](themes/) are **automatically generated** using [`create-themes.py`](create-themes.py) and the information in [`settings-light-dark.yaml`](settings-light-dark.yaml).
 
 ## Screenshots
 
