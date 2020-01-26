@@ -21,7 +21,7 @@ for color in ["blue", "green", "blue-red", "dark-orange"]:
 
         t = jinja2.Template(temp)
 
-        with open(f"backgrounds/homekit-bg-{color}.jpeg", "rb") as f:
+        with open(f"backgrounds/homekit-bg-{color}.jpg", "rb") as f:
             background_base64 = base64.b64encode(f.read()).decode()
 
         result = t.render(
