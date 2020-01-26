@@ -4,7 +4,7 @@ import yaml
 import base64
 
 
-with open("light-dark.yaml", "r") as f:
+with open("settings-light-dark.yaml", "r") as f:
     all_settings = yaml.safe_load(f)
 
 
@@ -16,7 +16,7 @@ for bg in ["blue", "green", "blue-red", "dark-orange"]:
     for which in ["light", "dark"]:
         settings = {k: parse(v[which]) for k, v in all_settings.items()}
 
-        with open("template.jijnja2.yaml") as f:
+        with open("template.jinja2") as f:
             temp = "".join(f.readlines())
 
         t = jinja2.Template(temp)
