@@ -1,4 +1,6 @@
 {
   "name": "iOS Themes",
+  "content_in_root": true,
+  "filename": "ios-themes.yaml",
   "render_readme": true
 }
