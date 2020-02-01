@@ -71,5 +71,7 @@ input_boolean:
   dark_mode:
     name: Dark mode
     icon: mdi:theme-light-dark
+  theme_alternative:
+    name: Theme alternative (enable active state color)
 ```
-Then add `input_select.theme` and `input_boolean.dark_mode` to your Lovelace UI.
+Then add `input_select.theme`, `input_boolean.theme_alternative`, and `input_boolean.dark_mode` to your Lovelace UI.
