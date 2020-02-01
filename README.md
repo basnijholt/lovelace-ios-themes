@@ -32,26 +32,7 @@ frontend:
 background: var(--background-image)
 ```
 
-3. (Optional) add the following to the same file to make the header smaller (you need to install [`custom-header`](https://github.com/maykar/custom-header) too):
-```yaml
-custom_header:
-  background: 'rgba(155, 155, 155, 0.25)'
-  compact_mode: true
-  button_text:
-    options: '{{ hours24 }}:{{ minutesLZ }}'
-```
-
-4. (Optional) change the background to a different one, see [`backgrounds/README.md`](https://github.com/basnijholt/lovelace-ios-themes/tree/master/backgrounds).
-
-### ~~HACS~~ not working yet!
-
-1. ~~Go to the Community Store.~~
-2. ~~Search for `iOS Themes`.~~
-3. ~~Navigate to `iOS Themes` theme.~~
-4. ~~Press `Install`.~~
-
-### Manual
-
+3. Installation of the theme
 Copy paste the following lines of code into a terminal on your HA instance. *(this assumes that your themes folder is in `/config/themes`)*
 ```bash
 mkdir -p /config/themes/ && "$_"
@@ -59,6 +40,15 @@ wget https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip
 unzip master.zip
 mv lovelace-ios-themes-master/themes/*yaml .
 rm -fr master.zip lovelace-ios-themes-master
+```
+
+4. (Optional) add the following to the same file to make the header smaller (you need to install [`custom-header`](https://github.com/maykar/custom-header) too):
+```yaml
+custom_header:
+  background: 'rgba(155, 155, 155, 0.25)'
+  compact_mode: true
+  button_text:
+    options: '{{ hours24 }}:{{ minutesLZ }}'
 ```
 
 ## Automations to easily switch
