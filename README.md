@@ -32,7 +32,8 @@ frontend:
 background: var(--background-image)
 ```
 
-3. Installation of the theme
+3. Installation of the theme.
+
 Copy paste the following lines of code into a terminal on your HA instance. *(this assumes that your themes folder is in `/config/themes`)*
 ```bash
 mkdir -p /config/themes/ && "$_"
