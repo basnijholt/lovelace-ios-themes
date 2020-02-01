@@ -52,18 +52,13 @@ custom_header:
 
 ### Manual
 
-Clone this repository in your existing (or create it) `themes/` folder.
-
+Copy paste the following lines of code into a terminal on your HA instance. *(this assumes that your themes folder is in `/config/themes`)*
 ```bash
-cd themes/
-git clone https://github.com/basnijholt/lovelace-ios-themes.git
-```
-
-Or using submodules:
-
-```bash
-cd themes/
-git submodule add https://github.com/basnijholt/lovelace-ios-themes.git
+mkdir -p /config/themes/ && "$_"
+wget https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip
+unzip master.zip
+mv lovelace-ios-themes-master/themes/*yaml .
+rm -fr master.zip lovelace-ios-themes-master
 ```
 
 ## Automations to easily switch
