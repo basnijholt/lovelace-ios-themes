@@ -9,6 +9,7 @@
 
 Offers alternatives to the [*iOS Dark Mode Theme*](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
 All the **28(!)** themes in [`themes/`](themes/) are **automatically generated** using [`create-themes.py`](create-themes.py) and the information in [`settings-light-dark.yaml`](settings-light-dark.yaml).
+The files that 
 
 ## Screenshots
 
@@ -33,8 +34,9 @@ background: var(--background-image)
 ```
 
 3. Installation of the theme.
+*(this assumes that your themes folder is in `/config/themes`)*
 
-Copy paste the following lines of code into a terminal on your HA instance. *(this assumes that your themes folder is in `/config/themes`)*
+(Option 1.) Copy paste the following lines of code into a terminal on your HA instance.
 ```bash
 mkdir -p /config/themes/ && "$_"
 wget https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip
@@ -42,6 +44,8 @@ unzip master.zip
 mv lovelace-ios-themes-master/themes/*yaml .
 rm -fr master.zip lovelace-ios-themes-master
 ```
+
+(Option 2.) Download [this](https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip) `zip` file, unpack it, and copy all `yaml` files in `themes/` to your HA instance `/config/themes`
 
 4. (Optional) add the following to the same file to make the header smaller (you need to install [`custom-header`](https://github.com/maykar/custom-header) too):
 ```yaml
