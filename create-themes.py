@@ -1,4 +1,5 @@
-# Render themes
+# Render themes, creates them as separate files and as
+# one combined file `ios-themes.yaml`.
 # Part of https://github.com/basnijholt/lovelace-ios-themes
 
 import base64
@@ -13,6 +14,10 @@ with open("settings-light-dark.yaml", "r") as f:
 
 def parse(x):
     return x if "#" not in x else f'"{x}"'
+
+
+with open(f"ios-themes.yaml", "w") as f:
+    f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
 
 
 for background in Path("backgrounds").glob("homekit-bg-*.jpg"):
@@ -30,4 +35,7 @@ for background in Path("backgrounds").glob("homekit-bg-*.jpg"):
             **settings, which=which, background_base64=background_base64, color=color
         )
         with open(f"themes/ios-{which}-mode-{color}.yaml", "w") as f:
-            f.write(result + "\n")
+            f.write("---\n" + result + "\n")
+
+        with open(f"ios-themes.yaml", "a") as f:
+            f.write("\n" + result + "\n")
