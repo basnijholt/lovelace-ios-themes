@@ -43,12 +43,12 @@ custom_header:
 
 4. (Optional) change the background to a different one, see [`backgrounds/README.md`](https://github.com/basnijholt/lovelace-ios-themes/tree/master/backgrounds).
 
-### HACS
+### ~~HACS~~ not working yet!
 
-1. Go to the Community Store.
-2. Search for `iOS Themes`.
-3. Navigate to `iOS Themes` theme.
-4. Press `Install`.
+1. ~~Go to the Community Store.~~
+2. ~~Search for `iOS Themes`.~~
+3. ~~Navigate to `iOS Themes` theme.~~
+4. ~~Press `Install`.~~
 
 ### Manual
 
