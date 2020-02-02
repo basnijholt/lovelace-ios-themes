@@ -19,21 +19,8 @@ The files that
 
 ## Installation
 
-1. Add the following code to your `configuration.yaml` file (reboot required).
 
-```yaml
-frontend:
-  ... # your configuration.
-  themes: !include_dir_merge_named themes
-  ... # your configuration.
-```
-
-2. Add the following line to your `lovelace-ui.yaml` or use the RAW editor:
-```yaml
-background: var(--background-image)
-```
-
-3. Installation of the theme.
+1. Installation of the theme.
 *(this assumes that your themes folder is in `/config/themes`)*
 
 (Option 1.) Copy paste the following lines of code into a terminal on your HA instance.
@@ -47,6 +34,21 @@ rm -fr master.zip lovelace-ios-themes-master
 
 (Option 2.) Download [this](https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip) `zip` file, unpack it, and copy all `yaml` files in `themes/` to your HA instance `/config/themes`
 
+
+2. Add the following code to your `configuration.yaml` file (reboot required).
+
+```yaml
+frontend:
+  ... # your configuration.
+  themes: !include_dir_merge_named themes
+  ... # your configuration.
+```
+
+3. Add the following line to your `lovelace-ui.yaml` or use the RAW editor:
+```yaml
+background: var(--background-image)
+```
+
 4. (Optional) add the following to the same file to make the header smaller (you need to install [`custom-header`](https://github.com/maykar/custom-header) too):
 ```yaml
 custom_header:
@@ -55,6 +57,8 @@ custom_header:
   button_text:
     options: '{{ hours24 }}:{{ minutesLZ }}'
 ```
+
+So the end result will be something like [this example](https://github.com/basnijholt/home-assistant-config/blob/master/lovelace-ui.yaml#L1-L7).
 
 ## Automations to easily switch
 **WARNING: if you want to switch themes using automations, you need to go to your profile and select "Backend-selected" for Theme!**
