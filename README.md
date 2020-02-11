@@ -19,21 +19,12 @@ The files that
 
 ## Installation
 
+1. Installation of the themes with HACS.
 
-1. Installation of the theme.
-*(this assumes that your themes folder is in `/config/themes`)*
-
-(Option 1.) Copy paste the following lines of code into a terminal on your HA instance.
-```bash
-mkdir -p /config/themes/ && "$_"
-wget https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip
-unzip master.zip
-mv lovelace-ios-themes-master/themes/*yaml .
-rm -fr master.zip lovelace-ios-themes-master
-```
-
-(Option 2.) Download [this](https://github.com/basnijholt/lovelace-ios-themes/archive/master.zip) `zip` file, unpack it, and copy all `yaml` files in `themes/` to your HA instance `/config/themes`
-
+* (If you do not have it yet) Install [HACS](https://hacs.xyz/docs/installation/manual).
+* Go to the HACS Community Store.
+* Click on the `THEMES` tab.
+* Search and install the `iOS Themes`.
 
 2. Add the following code to your `configuration.yaml` file (reboot required).
 
