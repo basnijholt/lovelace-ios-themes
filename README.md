@@ -19,13 +19,10 @@ The files that
 
 ## Installation
 
+1. Installation of the themes with HACS.
 
-1. Installation of the theme.
-*(this assumes that your themes folder is in `/config/themes`)*
-
-(Option 1.) Use [HACS](https://hacs.xyz/docs/installation/manual).
-
-* Go to the Community Store.
+* (If you do not have it yet) Install [HACS](https://hacs.xyz/docs/installation/manual).
+* Go to the HACS Community Store.
 * Click on the `THEMES` tab.
 * Search and install the `iOS Themes`.
 
