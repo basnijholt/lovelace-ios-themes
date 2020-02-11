@@ -41,10 +41,8 @@ for background in Path("themes").glob("homekit-bg-*.jpg"):
                 color=color,
                 suffix=suffix,
             )
-            with open(f"themes/ios-{which}-mode-{color}{suffix}.yaml", "w") as f:
-                f.write("---\n" + result + "\n")
 
-            with open(f"ios-themes.yaml", "a") as f:
+            with open(f"themes/ios-themes.yaml", "a") as f:
                 f.write("\n" + result + "\n")
 
 
