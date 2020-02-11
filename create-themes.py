@@ -14,8 +14,9 @@ with open("settings-light-dark.yaml", "r") as f:
 def parse(x):
     return x if "#" not in x else f'"{x}"'
 
+fname = "themes/ios-themes.yaml"
 
-with open(f"ios-themes.yaml", "w") as f:
+with open(fname, "w") as f:
     f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
 
 
@@ -42,7 +43,7 @@ for background in Path("themes").glob("homekit-bg-*.jpg"):
                 suffix=suffix,
             )
 
-            with open(f"themes/ios-themes.yaml", "a") as f:
+            with open(fname, "a") as f:
                 f.write("\n" + result + "\n")
 
 
