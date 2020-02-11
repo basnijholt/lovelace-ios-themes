@@ -38,7 +38,7 @@ for background in Path("themes").glob("homekit-bg-*.jpg"):
             result = template.render(
                 **settings,
                 which=which,
-                background_jpg=str(background),
+                background_jpg=str(background.name),
                 color=color,
                 suffix=suffix,
             )
