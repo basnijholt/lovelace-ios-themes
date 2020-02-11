@@ -1,6 +1,6 @@
 {
   "name": "iOS Themes",
-  "content_in_root": true,
+  "hacs": "0.21.2",
   "filename": "ios-themes.yaml",
   "render_readme": true
 }

@@ -2,7 +2,6 @@
 # one combined file `ios-themes.yaml`.
 # Part of https://github.com/basnijholt/lovelace-ios-themes
 
-import base64
 from pathlib import Path
 
 import jinja2
@@ -20,7 +19,7 @@ with open(f"ios-themes.yaml", "w") as f:
     f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
 
 
-for background in Path("backgrounds").glob("homekit-bg-*.jpg"):
+for background in Path("themes").glob("homekit-bg-*.jpg"):
     color = background.stem.split("homekit-bg-")[-1]
     for which in ["light", "dark"]:
         for state_icon_yellow in [False, True]:
@@ -35,12 +34,10 @@ for background in Path("backgrounds").glob("homekit-bg-*.jpg"):
             with open("template.jinja2") as f:
                 template = jinja2.Template("".join(f.readlines()))
 
-            with background.open("rb") as f:
-                background_base64 = base64.b64encode(f.read()).decode()
             result = template.render(
                 **settings,
                 which=which,
-                background_base64=background_base64,
+                background_jpg=str(background),
                 color=color,
                 suffix=suffix,
             )
@@ -49,3 +46,5 @@ for background in Path("backgrounds").glob("homekit-bg-*.jpg"):
 
             with open(f"ios-themes.yaml", "a") as f:
                 f.write("\n" + result + "\n")
+
+

@@ -3,7 +3,8 @@
 #
 ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   # Global
-  background-image: "center / cover no-repeat fixed url('data:image/jpeg;base64,{{ background_base64 }}')"
+  background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/lovelace_ios_themes/{{ background_jpg }}')"
+  lovelace-background: var(--background-image)
   primary-color: {{ primary_color }}  # from Apple systemOrange {{ which }} mode
   light-primary-color: {{ light_primary_color }}  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
   primary-background-color: {{ primary_background_color }}  # systemGray5 {{ which }} mode
