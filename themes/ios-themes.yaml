@@ -8,7 +8,7 @@ ios-light-mode-dark-green:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -23,7 +23,7 @@ ios-light-mode-dark-green:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -77,7 +77,7 @@ ios-light-mode-dark-green-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -92,7 +92,7 @@ ios-light-mode-dark-green-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -146,7 +146,7 @@ ios-dark-mode-dark-green:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -161,7 +161,7 @@ ios-dark-mode-dark-green:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -215,7 +215,7 @@ ios-dark-mode-dark-green-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -230,7 +230,7 @@ ios-dark-mode-dark-green-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -284,7 +284,7 @@ ios-light-mode-light-blue:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -299,7 +299,7 @@ ios-light-mode-light-blue:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -353,7 +353,7 @@ ios-light-mode-light-blue-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -368,7 +368,7 @@ ios-light-mode-light-blue-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -422,7 +422,7 @@ ios-dark-mode-light-blue:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -437,7 +437,7 @@ ios-dark-mode-light-blue:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -491,7 +491,7 @@ ios-dark-mode-light-blue-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -506,7 +506,7 @@ ios-dark-mode-light-blue-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -560,7 +560,7 @@ ios-light-mode-light-green:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -575,7 +575,7 @@ ios-light-mode-light-green:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -629,7 +629,7 @@ ios-light-mode-light-green-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -644,7 +644,7 @@ ios-light-mode-light-green-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -698,7 +698,7 @@ ios-dark-mode-light-green:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -713,7 +713,7 @@ ios-dark-mode-light-green:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -767,7 +767,7 @@ ios-dark-mode-light-green-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-light-green.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -782,7 +782,7 @@ ios-dark-mode-light-green-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -836,7 +836,7 @@ ios-light-mode-orange:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-orange.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -851,7 +851,7 @@ ios-light-mode-orange:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -905,7 +905,7 @@ ios-light-mode-orange-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-orange.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -920,7 +920,7 @@ ios-light-mode-orange-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -974,7 +974,7 @@ ios-dark-mode-orange:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-orange.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -989,7 +989,7 @@ ios-dark-mode-orange:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1043,7 +1043,7 @@ ios-dark-mode-orange-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-orange.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1058,7 +1058,7 @@ ios-dark-mode-orange-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1112,7 +1112,7 @@ ios-light-mode-blue-red:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-blue-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -1127,7 +1127,7 @@ ios-light-mode-blue-red:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1181,7 +1181,7 @@ ios-light-mode-blue-red-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-blue-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -1196,7 +1196,7 @@ ios-light-mode-blue-red-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1250,7 +1250,7 @@ ios-dark-mode-blue-red:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-blue-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1265,7 +1265,7 @@ ios-dark-mode-blue-red:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1319,7 +1319,7 @@ ios-dark-mode-blue-red-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-blue-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1334,7 +1334,7 @@ ios-dark-mode-blue-red-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1388,7 +1388,7 @@ ios-light-mode-red:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -1403,7 +1403,7 @@ ios-light-mode-red:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1457,7 +1457,7 @@ ios-light-mode-red-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -1472,7 +1472,7 @@ ios-light-mode-red-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1526,7 +1526,7 @@ ios-dark-mode-red:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1541,7 +1541,7 @@ ios-dark-mode-red:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1595,7 +1595,7 @@ ios-dark-mode-red-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-red.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1610,7 +1610,7 @@ ios-dark-mode-red-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1664,7 +1664,7 @@ ios-light-mode-dark-blue:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -1679,7 +1679,7 @@ ios-light-mode-dark-blue:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1733,7 +1733,7 @@ ios-light-mode-dark-blue-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 149, 9, 1)  # from Apple systemOrange light mode
-  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
   secondary-background-color: rgba(255, 255, 255, 0.7)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
@@ -1748,7 +1748,7 @@ ios-light-mode-dark-blue-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#8e8e93"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1802,7 +1802,7 @@ ios-dark-mode-dark-blue:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1817,7 +1817,7 @@ ios-dark-mode-dark-blue:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
@@ -1871,7 +1871,7 @@ ios-dark-mode-dark-blue-alternative:
   background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/ios-themes/homekit-bg-dark-blue.jpg')"
   lovelace-background: var(--background-image)
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX) 
+  light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
   secondary-background-color: rgba(25, 25, 25, 0.7)
   divider-color: "#98989d"  # from Apple systemGray dark mode
@@ -1886,7 +1886,7 @@ ios-dark-mode-dark-blue-alternative:
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX) 
+  sidebar-selected-icon-color: "#FFF"  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
