@@ -26,8 +26,8 @@ primary_background_color:
   dark: '#2c2c2e'
   light: '#e5e5ea'
 primary_color:
-  dark: rgba(255, 159, 9, 1)
-  light: rgba(255, 149, 9, 1)
+  dark: '#ff9f09'
+  light: '#ff9409'
 primary_text_color:
   dark: '#FFF'
   light: '#464a47'
