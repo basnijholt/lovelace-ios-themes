@@ -20,6 +20,7 @@ ios-light-mode-dark-green:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -89,6 +90,7 @@ ios-light-mode-dark-green-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -158,6 +160,7 @@ ios-dark-mode-dark-green:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -227,6 +230,7 @@ ios-dark-mode-dark-green-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -296,6 +300,7 @@ ios-light-mode-light-blue:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -365,6 +370,7 @@ ios-light-mode-light-blue-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -434,6 +440,7 @@ ios-dark-mode-light-blue:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -503,6 +510,7 @@ ios-dark-mode-light-blue-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -572,6 +580,7 @@ ios-light-mode-light-green:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -641,6 +650,7 @@ ios-light-mode-light-green-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -710,6 +720,7 @@ ios-dark-mode-light-green:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -779,6 +790,7 @@ ios-dark-mode-light-green-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -848,6 +860,7 @@ ios-light-mode-orange:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -917,6 +930,7 @@ ios-light-mode-orange-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -986,6 +1000,7 @@ ios-dark-mode-orange:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1055,6 +1070,7 @@ ios-dark-mode-orange-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1124,6 +1140,7 @@ ios-light-mode-blue-red:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1193,6 +1210,7 @@ ios-light-mode-blue-red-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1262,6 +1280,7 @@ ios-dark-mode-blue-red:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1331,6 +1350,7 @@ ios-dark-mode-blue-red-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1400,6 +1420,7 @@ ios-light-mode-red:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1469,6 +1490,7 @@ ios-light-mode-red-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1538,6 +1560,7 @@ ios-dark-mode-red:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1607,6 +1630,7 @@ ios-dark-mode-red-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1676,6 +1700,7 @@ ios-light-mode-dark-blue:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1745,6 +1770,7 @@ ios-light-mode-dark-blue-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--light-primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1814,6 +1840,7 @@ ios-dark-mode-dark-blue:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -1883,6 +1910,7 @@ ios-dark-mode-dark-blue-alternative:
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
