@@ -30,6 +30,7 @@ ios-light-mode-dark-green:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -101,6 +102,7 @@ ios-light-mode-dark-green-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -172,6 +174,7 @@ ios-dark-mode-dark-green:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -243,6 +246,7 @@ ios-dark-mode-dark-green-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -314,6 +318,7 @@ ios-light-mode-light-blue:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -385,6 +390,7 @@ ios-light-mode-light-blue-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -456,6 +462,7 @@ ios-dark-mode-light-blue:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -527,6 +534,7 @@ ios-dark-mode-light-blue-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -598,6 +606,7 @@ ios-light-mode-light-green:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -669,6 +678,7 @@ ios-light-mode-light-green-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -740,6 +750,7 @@ ios-dark-mode-light-green:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -811,6 +822,7 @@ ios-dark-mode-light-green-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -882,6 +894,7 @@ ios-light-mode-orange:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -953,6 +966,7 @@ ios-light-mode-orange-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1024,6 +1038,7 @@ ios-dark-mode-orange:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1095,6 +1110,7 @@ ios-dark-mode-orange-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1166,6 +1182,7 @@ ios-light-mode-blue-red:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1237,6 +1254,7 @@ ios-light-mode-blue-red-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1308,6 +1326,7 @@ ios-dark-mode-blue-red:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1379,6 +1398,7 @@ ios-dark-mode-blue-red-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1450,6 +1470,7 @@ ios-light-mode-red:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1521,6 +1542,7 @@ ios-light-mode-red-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1592,6 +1614,7 @@ ios-dark-mode-red:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1663,6 +1686,7 @@ ios-dark-mode-red-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1734,6 +1758,7 @@ ios-light-mode-dark-blue:
   state-icon-color: "#FFF"
   state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1805,6 +1830,7 @@ ios-light-mode-dark-blue-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1876,6 +1902,7 @@ ios-dark-mode-dark-blue:
   state-icon-color: "#FFF"
   state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1947,6 +1974,7 @@ ios-dark-mode-dark-blue-alternative:
   state-icon-color: "#FFF"
   state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
