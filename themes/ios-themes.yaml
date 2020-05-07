@@ -67,6 +67,7 @@ ios-light-mode-dark-green:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -139,6 +140,7 @@ ios-light-mode-dark-green-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -211,6 +213,7 @@ ios-dark-mode-dark-green:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -283,6 +286,7 @@ ios-dark-mode-dark-green-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -355,6 +359,7 @@ ios-light-mode-light-blue:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -427,6 +432,7 @@ ios-light-mode-light-blue-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -499,6 +505,7 @@ ios-dark-mode-light-blue:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -571,6 +578,7 @@ ios-dark-mode-light-blue-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -643,6 +651,7 @@ ios-light-mode-light-green:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -715,6 +724,7 @@ ios-light-mode-light-green-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -787,6 +797,7 @@ ios-dark-mode-light-green:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -859,6 +870,7 @@ ios-dark-mode-light-green-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -931,6 +943,7 @@ ios-light-mode-orange:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1003,6 +1016,7 @@ ios-light-mode-orange-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1075,6 +1089,7 @@ ios-dark-mode-orange:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1147,6 +1162,7 @@ ios-dark-mode-orange-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1219,6 +1235,7 @@ ios-light-mode-blue-red:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1291,6 +1308,7 @@ ios-light-mode-blue-red-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1363,6 +1381,7 @@ ios-dark-mode-blue-red:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1435,6 +1454,7 @@ ios-dark-mode-blue-red-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1507,6 +1527,7 @@ ios-light-mode-red:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1579,6 +1600,7 @@ ios-light-mode-red-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1651,6 +1673,7 @@ ios-dark-mode-red:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1723,6 +1746,7 @@ ios-dark-mode-red-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1795,6 +1819,7 @@ ios-light-mode-dark-blue:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1867,6 +1892,7 @@ ios-light-mode-dark-blue-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1939,6 +1965,7 @@ ios-dark-mode-dark-blue:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2011,6 +2038,7 @@ ios-dark-mode-dark-blue-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(155, 155, 155, 0.25)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
