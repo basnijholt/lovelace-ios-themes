@@ -6,6 +6,7 @@ from pathlib import Path
 
 import jinja2
 import yaml
+from PIL import Image
 
 with open("settings-light-dark.yaml", "r") as f:
     all_settings = yaml.safe_load(f)
@@ -13,6 +14,12 @@ with open("settings-light-dark.yaml", "r") as f:
 
 def parse(x):
     return x if "#" not in x else f'"{x}"'
+
+
+def average_color(fname):
+    color = Image.open(fname).resize((1, 1)).getpixel((0, 0))
+    return '"#{:02x}{:02x}{:02x}"'.format(*color).upper()
+
 
 fname = "themes/ios-themes.yaml"
 
@@ -22,6 +29,7 @@ with open(fname, "w") as f:
 
 for background in Path("themes").glob("homekit-bg-*.jpg"):
     color = background.stem.split("homekit-bg-")[-1]
+    app_header_background_color = average_color(background)
     for which in ["light", "dark"]:
         for state_icon_yellow in [False, True]:
             settings = {k: parse(v[which]) for k, v in all_settings.items()}
@@ -37,6 +45,7 @@ for background in Path("themes").glob("homekit-bg-*.jpg"):
 
             result = template.render(
                 **settings,
+                app_header_background_color=app_header_background_color,
                 which=which,
                 background_jpg=str(background.name),
                 color=color,
@@ -45,5 +54,3 @@ for background in Path("themes").glob("homekit-bg-*.jpg"):
 
             with open(fname, "a") as f:
                 f.write("\n" + result + "\n")
-
-
