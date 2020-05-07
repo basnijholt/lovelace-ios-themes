@@ -7,6 +7,7 @@ from pathlib import Path
 import jinja2
 import yaml
 from PIL import Image
+from PIL import ImageColor
 
 with open("settings-light-dark.yaml", "r") as f:
     all_settings = yaml.safe_load(f)
@@ -18,7 +19,9 @@ def parse(x):
 
 def average_color(fname):
     color = Image.open(fname).resize((1, 1)).getpixel((0, 0))
-    return '"#{:02x}{:02x}{:02x}"'.format(*color).upper()
+    hex_color = "#{:02x}{:02x}{:02x}".format(*color)
+    rgb_color = ImageColor.getrgb(hex_color)
+    return "rgba({}, {}, {}, 0.8)".format(*rgb_color)
 
 
 fname = "themes/ios-themes.yaml"
