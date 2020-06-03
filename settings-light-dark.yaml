@@ -49,3 +49,6 @@ state_icon_active_color:
 switch_checked_track_color:
   dark: '#30d158'
   light: '#34c759'
+markdown_code_background_color:
+  dark: '#464646'
+  light: '#FFFFFF'
