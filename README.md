@@ -13,6 +13,9 @@ The files that
 
 ## Screenshots
 
+Low quality `gif`, click to see a `mp4`.
+[![Theme - Overview](https://github.com/basnijholt/lovelace-ios-themes/raw/media/screenshots/overview.gif)](https://github.com/basnijholt/lovelace-ios-themes/raw/media/screenshots/overview.gif)
+
 ### Overview
 
 ![Theme - Overview](https://github.com/basnijholt/lovelace-ios-themes/raw/media/screenshots/blue-red-dark.png)
