@@ -1,5 +1,5 @@
 {
-  "name": "iOS Themes",
+  "name": "iOS Themes - Dark Mode and Light Mode",
   "hacs": "0.21.2",
   "filename": "ios-themes.yaml",
   "render_readme": true
