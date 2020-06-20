@@ -38,10 +38,10 @@ for background in Path("themes").glob("homekit-bg-*.jpg"):
             settings = {k: parse(v[which]) for k, v in all_settings.items()}
 
             if state_icon_yellow:
+                suffix = ""
+            else:
                 settings["state_icon_active_color"] = "rgba(255, 214, 10, 1)"
                 suffix = "-alternative"
-            else:
-                suffix = ""
 
             with open("template.jinja2") as f:
                 template = jinja2.Template("".join(f.readlines()))
