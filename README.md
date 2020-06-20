@@ -7,9 +7,24 @@
 
 > The iOS Theme by @basnijholt and modified from @kalkih's [Gist](https://gist.github.com/kalkih/fbe84b371ef7f992c3bd51b235e2c299)
 
-Offers alternatives to the [*iOS Dark Mode Theme*](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
-All the **28(!)** themes in [`themes/`](themes/) are **automatically generated** using [`create-themes.py`](create-themes.py) and the information in [`settings-light-dark.yaml`](settings-light-dark.yaml) is passed into [`template.jinja2`](template.jinja2).
-The resulting file is [`themes/ios-themes.yaml`](themes/ios-themes.yaml) which contains all variants (different backgrounds and dark/light mode).
+A generalized version of [*iOS Dark Mode Theme*](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
+This includes both **Dark and Light Mode** and 7 different HomeKit backgrounds.
+Installing this theme adds 28 different themes:
+- `ios-light-mode-dark-green`
+- `ios-dark-mode-dark-green`
+- `ios-light-mode-light-blue`
+- `ios-dark-mode-light-blue`
+- `ios-light-mode-light-green`
+- `ios-dark-mode-light-green`
+- `ios-light-mode-orange`
+- `ios-dark-mode-orange`
+- `ios-light-mode-blue-red`
+- `ios-dark-mode-blue-red`
+- `ios-light-mode-red`
+- `ios-dark-mode-red`
+- `ios-light-mode-dark-blue`
+- `ios-dark-mode-dark-blue`
+- `...` and versions with the `-alternative` suffix
 
 ## Screenshots
 
@@ -96,3 +111,9 @@ input_boolean:
     name: Theme alternative (enable active state color)
 ```
 Then add `input_select.theme`, `input_boolean.theme_alternative`, and `input_boolean.dark_mode` to your Lovelace UI.
+
+
+## How does the code work
+
+All the **28(!)** themes in [`themes/`](themes/) are **automatically generated** using [`create-themes.py`](create-themes.py) and the information in [`settings-light-dark.yaml`](settings-light-dark.yaml) is passed into [`template.jinja2`](template.jinja2).
+The resulting file is [`themes/ios-themes.yaml`](themes/ios-themes.yaml) which contains all variants (different backgrounds and dark/light mode).
