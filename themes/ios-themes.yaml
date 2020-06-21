@@ -28,9 +28,9 @@ ios-light-mode-dark-green-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -102,9 +102,9 @@ ios-light-mode-dark-green:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -176,9 +176,9 @@ ios-dark-mode-dark-green-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -250,9 +250,9 @@ ios-dark-mode-dark-green:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -324,9 +324,9 @@ ios-light-mode-light-blue-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -398,9 +398,9 @@ ios-light-mode-light-blue:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -472,9 +472,9 @@ ios-dark-mode-light-blue-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -546,9 +546,9 @@ ios-dark-mode-light-blue:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -620,9 +620,9 @@ ios-light-mode-light-green-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -694,9 +694,9 @@ ios-light-mode-light-green:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -768,9 +768,9 @@ ios-dark-mode-light-green-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -842,9 +842,9 @@ ios-dark-mode-light-green:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -916,9 +916,9 @@ ios-light-mode-orange-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -990,9 +990,9 @@ ios-light-mode-orange:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1064,9 +1064,9 @@ ios-dark-mode-orange-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1138,9 +1138,9 @@ ios-dark-mode-orange:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1212,9 +1212,9 @@ ios-light-mode-blue-red-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1286,9 +1286,9 @@ ios-light-mode-blue-red:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1360,9 +1360,9 @@ ios-dark-mode-blue-red-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1434,9 +1434,9 @@ ios-dark-mode-blue-red:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1508,9 +1508,9 @@ ios-light-mode-red-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1582,9 +1582,9 @@ ios-light-mode-red:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1656,9 +1656,9 @@ ios-dark-mode-red-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1730,9 +1730,9 @@ ios-dark-mode-red:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1804,9 +1804,9 @@ ios-light-mode-dark-blue-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1878,9 +1878,9 @@ ios-light-mode-dark-blue:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#333333"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#333333"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -1952,9 +1952,9 @@ ios-dark-mode-dark-blue-alternative:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -2026,9 +2026,9 @@ ios-dark-mode-dark-blue:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: "#FFF"  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+  paper-item-icon-active-color: rgba(255, 214, 10, 1)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
