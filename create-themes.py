@@ -26,9 +26,10 @@ def average_color(fname):
 
 folder_fname = [
     ("hacsfiles", Path("themes/ios-themes.yaml")),
-    ("local", Path("themes/ios-themes-manual-install.yaml")),
+    ("local", Path("manual-install/ios-themes.yaml")),
 ]
 for folder, fname in folder_fname:
+    fname.parent.mkdir(parents=True, exist_ok=True)
     with fname.open("w") as f:
         f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
     for background in Path("themes").glob("homekit-bg-*.jpg"):
