@@ -24,36 +24,38 @@ def average_color(fname):
     return "rgba({}, {}, {}, 0.8)".format(*rgb_color)
 
 
-fname = "themes/ios-themes.yaml"
+folder_fname = [
+    ("hacsfiles", Path("themes/ios-themes.yaml")),
+    ("local", Path("themes/ios-themes-manual-install.yaml")),
+]
+for folder, fname in folder_fname:
+    with fname.open("w") as f:
+        f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
+    for background in Path("themes").glob("homekit-bg-*.jpg"):
+        color = background.stem.split("homekit-bg-")[-1]
+        app_header_background_color = average_color(background)
+        for which in ["light", "dark"]:
+            for state_icon_yellow in [False, True]:
+                settings = {k: parse(v[which]) for k, v in all_settings.items()}
 
-with open(fname, "w") as f:
-    f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
+                if state_icon_yellow:
+                    settings["state_icon_active_color"] = "rgba(255, 214, 10, 1)"
+                    suffix = ""
+                else:
+                    suffix = "-alternative"
 
+                with open("template.jinja2") as f:
+                    template = jinja2.Template("".join(f.readlines()))
 
-for background in Path("themes").glob("homekit-bg-*.jpg"):
-    color = background.stem.split("homekit-bg-")[-1]
-    app_header_background_color = average_color(background)
-    for which in ["light", "dark"]:
-        for state_icon_yellow in [False, True]:
-            settings = {k: parse(v[which]) for k, v in all_settings.items()}
+                result = template.render(
+                    **settings,
+                    folder=folder,
+                    which=which,
+                    app_header_background_color=app_header_background_color,
+                    background_jpg=str(background.name),
+                    color=color,
+                    suffix=suffix,
+                )
 
-            if state_icon_yellow:
-                settings["state_icon_active_color"] = "rgba(255, 214, 10, 1)"
-                suffix = ""
-            else:
-                suffix = "-alternative"
-
-            with open("template.jinja2") as f:
-                template = jinja2.Template("".join(f.readlines()))
-
-            result = template.render(
-                **settings,
-                app_header_background_color=app_header_background_color,
-                which=which,
-                background_jpg=str(background.name),
-                color=color,
-                suffix=suffix,
-            )
-
-            with open(fname, "a") as f:
-                f.write("\n" + result + "\n")
+                with fname.open("a") as f:
+                    f.write("\n" + result + "\n")
