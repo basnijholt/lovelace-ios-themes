@@ -10,7 +10,7 @@ ios-light-mode-dark-green-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -85,7 +85,7 @@ ios-light-mode-dark-green:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -160,7 +160,7 @@ ios-dark-mode-dark-green-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -235,7 +235,7 @@ ios-dark-mode-dark-green:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -310,7 +310,7 @@ ios-light-mode-light-blue-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -385,7 +385,7 @@ ios-light-mode-light-blue:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -460,7 +460,7 @@ ios-dark-mode-light-blue-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -535,7 +535,7 @@ ios-dark-mode-light-blue:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -610,7 +610,7 @@ ios-light-mode-light-green-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -685,7 +685,7 @@ ios-light-mode-light-green:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -760,7 +760,7 @@ ios-dark-mode-light-green-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -835,7 +835,7 @@ ios-dark-mode-light-green:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -910,7 +910,7 @@ ios-light-mode-orange-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -985,7 +985,7 @@ ios-light-mode-orange:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1060,7 +1060,7 @@ ios-dark-mode-orange-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1135,7 +1135,7 @@ ios-dark-mode-orange:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1210,7 +1210,7 @@ ios-light-mode-blue-red-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1285,7 +1285,7 @@ ios-light-mode-blue-red:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1360,7 +1360,7 @@ ios-dark-mode-blue-red-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1435,7 +1435,7 @@ ios-dark-mode-blue-red:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1510,7 +1510,7 @@ ios-light-mode-red-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1585,7 +1585,7 @@ ios-light-mode-red:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1660,7 +1660,7 @@ ios-dark-mode-red-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1735,7 +1735,7 @@ ios-dark-mode-red:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1810,7 +1810,7 @@ ios-light-mode-dark-blue-alternative:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1885,7 +1885,7 @@ ios-light-mode-dark-blue:
   primary-color: "#ff9409"  # from Apple systemOrange light mode
   light-primary-color: "#2c2c2e"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#e5e5ea"  # systemGray5 light mode
-  secondary-background-color: rgba(255, 255, 255, 0.7)
+  secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: "#8e8e93"  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -1960,7 +1960,7 @@ ios-dark-mode-dark-blue-alternative:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
@@ -2035,7 +2035,7 @@ ios-dark-mode-dark-blue:
   primary-color: "#ff9f09"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#2c2c2e"  # systemGray5 dark mode
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: "#98989d"  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
   # Text

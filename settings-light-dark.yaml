@@ -32,8 +32,8 @@ primary_text_color:
   dark: '#FFF'
   light: '#464a47'
 secondary_background_color:
-  dark: rgba(25, 25, 25, 0.7)
-  light: rgba(255, 255, 255, 0.7)
+  dark: rgba(25, 25, 25, 0.9)
+  light: rgba(255, 255, 255, 0.9)
 secondary_text_color:
   dark: '#d3d3d3'
   light: '#000000'
