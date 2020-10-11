@@ -75,16 +75,7 @@ frontend:
 background: var(--background-image)
 ```
 
-4. (Optional) add the following to the same file to make the header smaller (you need to install [`custom-header`](https://github.com/maykar/custom-header) too):
-```yaml
-custom_header:
-  background: 'rgba(155, 155, 155, 0.25)'
-  compact_mode: true
-  button_text:
-    options: '{{ hours24 }}:{{ minutesLZ }}'
-```
-
-So the end result will be something like [this example](https://github.com/basnijholt/home-assistant-config/blob/master/lovelace-ui.yaml#L1-L7).
+So the end result will be something like [this example](https://github.com/basnijholt/home-assistant-config/blob/master/lovelace-ui.yaml).
 
 ## Automations to easily switch
 **WARNING: if you want to switch themes using automations, you need to go to your profile and select "Backend-selected" for Theme!**
