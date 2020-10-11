@@ -52,3 +52,6 @@ switch_checked_track_color:
 markdown_code_background_color:
   dark: '#464646'
   light: '#FFFFFF'
+code_editor_background_color:
+  dark: var(--disabled-text-color)
+  light: '#FFF'
