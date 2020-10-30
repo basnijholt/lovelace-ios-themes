@@ -219,7 +219,7 @@ ios-dark-mode-dark-green-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(61, 107, 86, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -294,7 +294,7 @@ ios-dark-mode-dark-green:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(61, 107, 86, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -519,7 +519,7 @@ ios-dark-mode-light-blue-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(1, 133, 162, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -594,7 +594,7 @@ ios-dark-mode-light-blue:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(1, 133, 162, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -819,7 +819,7 @@ ios-dark-mode-light-green-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(116, 184, 139, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -894,7 +894,7 @@ ios-dark-mode-light-green:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(116, 184, 139, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1119,7 +1119,7 @@ ios-dark-mode-orange-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(254, 190, 86, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1194,7 +1194,7 @@ ios-dark-mode-orange:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(254, 190, 86, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1419,7 +1419,7 @@ ios-dark-mode-blue-red-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(63, 36, 75, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1494,7 +1494,7 @@ ios-dark-mode-blue-red:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(63, 36, 75, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1719,7 +1719,7 @@ ios-dark-mode-red-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(249, 129, 97, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1794,7 +1794,7 @@ ios-dark-mode-red:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(249, 129, 97, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2019,7 +2019,7 @@ ios-dark-mode-dark-blue-alternative:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(118, 129, 167, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2094,7 +2094,7 @@ ios-dark-mode-dark-blue:
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(118, 129, 167, 0.4)
   markdown-code-background-color: "#464646"
-  code-editor-background-color: var(--disabled-text-color)
+  code-editor-background-color: "#161616"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white

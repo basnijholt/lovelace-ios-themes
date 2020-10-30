@@ -53,5 +53,5 @@ markdown_code_background_color:
   dark: '#464646'
   light: '#FFFFFF'
 code_editor_background_color:
-  dark: var(--disabled-text-color)
+  dark: '#161616'
   light: '#FFF'
