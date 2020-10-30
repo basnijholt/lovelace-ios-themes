@@ -67,7 +67,7 @@ ios-light-mode-dark-green-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(61, 107, 86, 0.8)
+  app-header-background-color: rgba(61, 107, 86, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -142,7 +142,7 @@ ios-light-mode-dark-green:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(61, 107, 86, 0.8)
+  app-header-background-color: rgba(61, 107, 86, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -217,7 +217,7 @@ ios-dark-mode-dark-green-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(61, 107, 86, 0.8)
+  app-header-background-color: rgba(61, 107, 86, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -292,7 +292,7 @@ ios-dark-mode-dark-green:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(61, 107, 86, 0.8)
+  app-header-background-color: rgba(61, 107, 86, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -367,7 +367,7 @@ ios-light-mode-light-blue-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(1, 133, 162, 0.8)
+  app-header-background-color: rgba(1, 133, 162, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -442,7 +442,7 @@ ios-light-mode-light-blue:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(1, 133, 162, 0.8)
+  app-header-background-color: rgba(1, 133, 162, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -517,7 +517,7 @@ ios-dark-mode-light-blue-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(1, 133, 162, 0.8)
+  app-header-background-color: rgba(1, 133, 162, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -592,7 +592,7 @@ ios-dark-mode-light-blue:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(1, 133, 162, 0.8)
+  app-header-background-color: rgba(1, 133, 162, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -667,7 +667,7 @@ ios-light-mode-light-green-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(116, 184, 139, 0.8)
+  app-header-background-color: rgba(116, 184, 139, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -742,7 +742,7 @@ ios-light-mode-light-green:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(116, 184, 139, 0.8)
+  app-header-background-color: rgba(116, 184, 139, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -817,7 +817,7 @@ ios-dark-mode-light-green-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(116, 184, 139, 0.8)
+  app-header-background-color: rgba(116, 184, 139, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -892,7 +892,7 @@ ios-dark-mode-light-green:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(116, 184, 139, 0.8)
+  app-header-background-color: rgba(116, 184, 139, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -967,7 +967,7 @@ ios-light-mode-orange-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(254, 190, 86, 0.8)
+  app-header-background-color: rgba(254, 190, 86, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1042,7 +1042,7 @@ ios-light-mode-orange:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(254, 190, 86, 0.8)
+  app-header-background-color: rgba(254, 190, 86, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1117,7 +1117,7 @@ ios-dark-mode-orange-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(254, 190, 86, 0.8)
+  app-header-background-color: rgba(254, 190, 86, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -1192,7 +1192,7 @@ ios-dark-mode-orange:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(254, 190, 86, 0.8)
+  app-header-background-color: rgba(254, 190, 86, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -1267,7 +1267,7 @@ ios-light-mode-blue-red-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(63, 36, 75, 0.8)
+  app-header-background-color: rgba(63, 36, 75, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1342,7 +1342,7 @@ ios-light-mode-blue-red:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(63, 36, 75, 0.8)
+  app-header-background-color: rgba(63, 36, 75, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1417,7 +1417,7 @@ ios-dark-mode-blue-red-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(63, 36, 75, 0.8)
+  app-header-background-color: rgba(63, 36, 75, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -1492,7 +1492,7 @@ ios-dark-mode-blue-red:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(63, 36, 75, 0.8)
+  app-header-background-color: rgba(63, 36, 75, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -1567,7 +1567,7 @@ ios-light-mode-red-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(249, 129, 97, 0.8)
+  app-header-background-color: rgba(249, 129, 97, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1642,7 +1642,7 @@ ios-light-mode-red:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(249, 129, 97, 0.8)
+  app-header-background-color: rgba(249, 129, 97, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1717,7 +1717,7 @@ ios-dark-mode-red-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(249, 129, 97, 0.8)
+  app-header-background-color: rgba(249, 129, 97, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -1792,7 +1792,7 @@ ios-dark-mode-red:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(249, 129, 97, 0.8)
+  app-header-background-color: rgba(249, 129, 97, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -1867,7 +1867,7 @@ ios-light-mode-dark-blue-alternative:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(118, 129, 167, 0.8)
+  app-header-background-color: rgba(118, 129, 167, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -1942,7 +1942,7 @@ ios-light-mode-dark-blue:
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(118, 129, 167, 0.8)
+  app-header-background-color: rgba(118, 129, 167, 0.4)
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   # Custom
@@ -2017,7 +2017,7 @@ ios-dark-mode-dark-blue-alternative:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(118, 129, 167, 0.8)
+  app-header-background-color: rgba(118, 129, 167, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
@@ -2092,7 +2092,7 @@ ios-dark-mode-dark-blue:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
-  app-header-background-color: rgba(118, 129, 167, 0.8)
+  app-header-background-color: rgba(118, 129, 167, 0.4)
   markdown-code-background-color: "#464646"
   code-editor-background-color: var(--disabled-text-color)
   # Custom
