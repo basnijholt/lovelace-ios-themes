@@ -10,20 +10,13 @@
 A generalized version of [*iOS Dark Mode Theme*](https://github.com/basnijholt/lovelace-ios-dark-mode-theme)!
 This includes both **Dark and Light Mode** and 7 different HomeKit backgrounds.
 Installing this theme adds 28 different themes:
-- `ios-light-mode-dark-green`
-- `ios-dark-mode-dark-green`
-- `ios-light-mode-light-blue`
-- `ios-dark-mode-light-blue`
-- `ios-light-mode-light-green`
-- `ios-dark-mode-light-green`
-- `ios-light-mode-orange`
-- `ios-dark-mode-orange`
-- `ios-light-mode-blue-red`
-- `ios-dark-mode-blue-red`
-- `ios-light-mode-red`
-- `ios-dark-mode-red`
-- `ios-light-mode-dark-blue`
-- `ios-dark-mode-dark-blue`
+- `ios-dark-green`
+- `ios-light-blue`
+- `ios-light-green`
+- `ios-orange`
+- `ios-blue-red`
+- `ios-red`
+- `ios-dark-blue`
 - `...` and versions with the `-alternative` suffix
 
 ## Screenshots
