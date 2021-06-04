@@ -1,39 +1,27 @@
 #
-# iOS {{ which.capitalize() }} Mode Theme - {{ color }}
+# iOS Dark/Light Mode Theme - {{ color }}
 #
-ios-{{ which }}-mode-{{ color }}{{ suffix }}:
+ios-{{ color }}{{ suffix }}:
   # Global
   background-image: "center / cover no-repeat fixed url('/{{ folder }}/themes/ios-themes/{{ background_jpg }}')"
   lovelace-background: var(--background-image)
-  primary-color: {{ primary_color }}  # from Apple systemOrange {{ which }} mode
-  light-primary-color: {{ light_primary_color }}  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
-  primary-background-color: {{ primary_background_color }}  # systemGray5 {{ which }} mode
-  secondary-background-color: {{ secondary_background_color }}
-  divider-color: {{ divider_color }}  # from Apple systemGray {{ which }} mode
   accent-color: rgba(255, 159, 9, 1)
   # Text
-  primary-text-color: {{ primary_text_color }}
-  secondary-text-color: {{ secondary_text_color }}
   text-primary-color: "#FFF"
   disabled-text-color: "#555"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
   sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
-  sidebar-text-color: {{ sidebar_text_color }}
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: {{ sidebar_selected_icon_color }}  # (light: systemGray5 from iOS light mode, dark: XXX)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: {{ state_icon_active_color }}  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: {{ state_icon_active_color }}  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: {{ paper_slider_active_color }}  # from Apple systemBlue {{ which }} mode
   paper-slider-secondary-color: var(--paper-slider-knob-color)
   paper-slider-container-color: rgba(255, 255, 255, 0.5)
   paper-slider-font-color: "#000"
@@ -41,12 +29,10 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   # Labels
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
-  label-badge-red: {{ label_badge_red }}  # from Apple systemOrange {{ which }} mode
   # Cards
   card-background-color: var(--secondary-background-color)  # Unused entities table background
   paper-listbox-background-color: var(--primary-background-color)
   ha-card-border-radius: 20px
-  ha-card-background: {{  ha_card_background }}
   paper-card-background-color: var(--ha-card-background)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
@@ -58,17 +44,44 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   table-row-alternative-background-color: var(--secondary-background-color)
   # Switches
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
-  switch-checked-track-color: {{ switch_checked_track_color }}  # from Apple systemGreen {{ which }} mode
   switch-checked-button-color: "#FFF"
   # Other
-  paper-dialog-background-color: {{ paper_dialog_background_color }}  # e.g., background of more-info
-  paper-item-icon-color: {{ paper_item_icon_color }}  # also should mini-media-player icon white (but doesn't work by itself)
-  more-info-header-background: {{ more_info_header_background }}
-  lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: {{ app_header_background_color }}
-  markdown-code-background-color: {{ markdown_code_background_color }}
-  code-editor-background-color: {{ code_editor_background_color }}
+  lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
+  modes:
+    {%- for which in ['light', 'dark'] %}
+    {{which }}:
+      # Global
+      primary-color: {{ primary_color[which] }}  # from Apple systemOrange {{ which }} mode
+      light-primary-color: {{ primary_color[which] }}  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
+      primary-background-color: {{ primary_background_color[which] }}  # systemGray5 {{ which }} mode
+      secondary-background-color: {{ secondary_background_color[which] }}
+      divider-color: {{ divider_color[which] }}  # from Apple systemGray {{ which }} mode
+      # Text
+      primary-text-color: {{ primary_text_color[which] }}
+      secondary-text-color: {{ secondary_text_color[which] }}
+      # Sidebar Menu
+      sidebar-text-color: {{ sidebar_text_color[which] }}
+      sidebar-selected-icon-color: {{ sidebar_selected_icon_color[which] }}  # (light: systemGray5 from iOS light mode, dark: XXX)
+      # States and Badges
+      state-icon-active-color: {{ state_icon_active_color[which] }}  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+      paper-item-icon-active-color: {{ state_icon_active_color[which] }}  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
+      # Sliders
+      paper-slider-active-color: {{ paper_slider_active_color[which] }}  # from Apple systemBlue {{ which }} mode
+      # Labels
+      label-badge-red: {{ label_badge_red[which] }}  # from Apple systemOrange {{ which }} mode
+      # Cards
+      ha-card-background: {{ ha_card_background[which] }}
+      # Switches
+      switch-checked-track-color: {{ switch_checked_track_color[which] }}  # from Apple systemGreen {{ which }} mode
+      # Other
+      paper-dialog-background-color: {{ paper_dialog_background_color[which] }}  # e.g., background of more-info
+      paper-item-icon-color: {{ paper_item_icon_color[which] }}  # also should mini-media-player icon white (but doesn't work by itself)
+      more-info-header-background: {{ more_info_header_background[which] }}
+      markdown-code-background-color: {{ markdown_code_background_color[which] }}
+      code-editor-background-color: {{ code_editor_background_color[which] }}
+    {%- endfor -%}
