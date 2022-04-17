@@ -76,32 +76,18 @@ ios-light-mode-dark-green-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - dark-green
@@ -179,32 +165,18 @@ ios-light-mode-dark-green:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - dark-green
@@ -282,32 +254,18 @@ ios-dark-mode-dark-green-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - dark-green
@@ -385,32 +343,18 @@ ios-dark-mode-dark-green:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - light-blue
@@ -488,32 +432,18 @@ ios-light-mode-light-blue-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - light-blue
@@ -591,32 +521,18 @@ ios-light-mode-light-blue:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - light-blue
@@ -694,32 +610,18 @@ ios-dark-mode-light-blue-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - light-blue
@@ -797,32 +699,18 @@ ios-dark-mode-light-blue:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - light-green
@@ -900,32 +788,18 @@ ios-light-mode-light-green-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - light-green
@@ -1003,32 +877,18 @@ ios-light-mode-light-green:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - light-green
@@ -1106,32 +966,18 @@ ios-dark-mode-light-green-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - light-green
@@ -1209,32 +1055,18 @@ ios-dark-mode-light-green:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - orange
@@ -1312,32 +1144,18 @@ ios-light-mode-orange-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - orange
@@ -1415,32 +1233,18 @@ ios-light-mode-orange:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - orange
@@ -1518,32 +1322,18 @@ ios-dark-mode-orange-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - orange
@@ -1621,32 +1411,18 @@ ios-dark-mode-orange:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - blue-red
@@ -1724,32 +1500,18 @@ ios-light-mode-blue-red-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - blue-red
@@ -1827,32 +1589,18 @@ ios-light-mode-blue-red:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - blue-red
@@ -1930,32 +1678,18 @@ ios-dark-mode-blue-red-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - blue-red
@@ -2033,32 +1767,18 @@ ios-dark-mode-blue-red:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - red
@@ -2136,32 +1856,18 @@ ios-light-mode-red-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - red
@@ -2239,32 +1945,18 @@ ios-light-mode-red:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - red
@@ -2342,32 +2034,18 @@ ios-dark-mode-red-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - red
@@ -2445,32 +2123,18 @@ ios-dark-mode-red:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - dark-blue
@@ -2548,32 +2212,18 @@ ios-light-mode-dark-blue-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Light Mode Theme - dark-blue
@@ -2651,32 +2301,18 @@ ios-light-mode-dark-blue:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - dark-blue
@@ -2754,32 +2390,18 @@ ios-dark-mode-dark-blue-alternative:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
 
 #
 # iOS Dark Mode Theme - dark-blue
@@ -2857,29 +2479,15 @@ ios-dark-mode-dark-blue:
   mini-media-player-icon-color: white
   # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
   # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  mdc-text-field-ink-color: var(--primary-text-color)
-  mdc-text-field-label-ink-color: var(--primary-text-color)
-  mdc-select-ink-color: var(--primary-text-color)
-  mdc-select-label-ink-color: var(--primary-text-color)
-  mdc-text-field-font-color: var(--primary-text-color)
-  mdc-select-idle-line-color: var(--secondary-text-color)
-  mdc-select-dropdown-icon-color: var(--primary-text-color)
-  mdc-select-hover-line-color: var(--secondary-text-color)
   input-ink-color: var(--primary-text-color)
-  input-disabled-label-ink-color: var(--disabled-text-color)
-  codemirror-property: var(--accent-color)
-  # TODO: Below contain alternatives that have been proposed in comments
-  # If anyone can test out the lines in the comments and report
-  # Which one looks better, that would be great!
-  mdc-text-field-fill-color: var(--ha-card-background)
-  mdc-select-fill-color: var(--ha-card-background)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
   input-label-ink-color: var(--primary-text-color)
   input-disabled-ink-color: var(--disabled-text-color)
-  input-disabled-fill-color: var(--ha-card-background)
-  input-fill-color: var(--ha-card-background)
   input-dropdown-icon-color: var(--primary-text-color)
-  # input-dropdown-icon-color: var(--light-primary-color)
   input-idle-line-color: var(--secondary-text-color)
-  # input-idle-line-color: var(--card-background-color)
   input-hover-line-color: var(--secondary-text-color)
-  # input-hover-line-color: var(--light-primary-color)
+  codemirror-property: var(--accent-color)
+  mdc-select-fill-color: transparent
+  # TODO: does the line below do anything?
+  input-disabled-label-ink-color: var(--disabled-text-color)
