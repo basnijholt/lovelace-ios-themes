@@ -1,6 +1,6 @@
 divider_color:
-  dark: '#98989d'
-  light: '#8e8e93'
+  dark: rgba(152, 152, 157, 0.3)
+  light: rgba(142, 142, 147, 0.3)
 ha_card_background:
   dark: rgba(10, 10, 10, 0.4)
   light: rgba(245, 245, 245, 0.4)
