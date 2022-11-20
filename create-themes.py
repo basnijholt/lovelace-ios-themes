@@ -25,6 +25,7 @@ def average_color(fname):
 
 
 BACKGROUND_COLORS = {
+    # Suggested by @okets in issue #42
     "blue-red": "rgba(30, 2, 61, 0.4)",
     "dark-blue": "rgba(48, 69, 124, 0.4)",
     "dark-green": "rgba(48, 89, 71, 0.4)",
