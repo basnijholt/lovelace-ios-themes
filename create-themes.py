@@ -24,6 +24,17 @@ def average_color(fname):
     return "rgba({}, {}, {}, 0.4)".format(*rgb_color)
 
 
+BACKGROUND_COLORS = {
+    "blue-red": "rgba(30, 2, 61, 0.4)",
+    "dark-blue": "rgba(48, 69, 124, 0.4)",
+    "dark-green": "rgba(48, 89, 71, 0.4)",
+    "light-blue": "rgba(1, 195, 220, 0.4)",
+    "light-green": "rgba(114, 188, 139, 0.4)",
+    "orange": "rgba(255, 229, 116, 0.4)",
+    "red": "rgba(234, 88, 63, 0.4)",
+}
+
+
 folder_fname = [
     ("hacsfiles", Path("themes/ios-themes.yaml")),
     ("local", Path("manual-install/ios-themes.yaml")),
@@ -34,7 +45,10 @@ for folder, fname in folder_fname:
         f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
     for background in Path("themes").glob("homekit-bg-*.jpg"):
         color = background.stem.split("homekit-bg-")[-1]
-        app_header_background_color = average_color(background)
+        if color in BACKGROUND_COLORS:
+            app_header_background_color = BACKGROUND_COLORS[color]
+        else:
+            app_header_background_color = average_color(background)
         for which in ["light", "dark"]:
             for state_icon_yellow in [False, True]:
                 settings = {k: parse(v[which]) for k, v in all_settings.items()}
