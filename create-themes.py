@@ -31,13 +31,6 @@ def base64_encode_file(fname):
         base64_utf8_str = base64.b64encode(image_file.read()).decode('utf-8')
         return f'data:image/{extension};base64,{base64_utf8_str}'
 
-
-def base64_encode_all_backgrounds():
-    backgrounds = {}
-    for background in sorted(Path("themes").glob("homekit-bg-*.jpg")):
-        backgrounds[background.stem] = base64_encode_file(background)
-    return backgrounds
-    
 BACKGROUND_COLORS = {
     # Suggested by @okets in issue #42
     "blue-red": "rgba(30, 2, 61, 0.4)",
@@ -56,16 +49,8 @@ folder_fname = [
 ]
 for folder, fname in folder_fname:
     fname.parent.mkdir(parents=True, exist_ok=True)
-    backgrounds = base64_encode_all_backgrounds()
-    with open("templates/header.jinja2") as f:
-        template = jinja2.Template("".join(f.readlines()))
-
-    result = template.render(
-        backgrounds=backgrounds,
-    )
     with fname.open("w") as f:
-        f.write(result)
-
+        f.write("---\n# From https://github.com/basnijholt/lovelace-ios-themes")
     for background in sorted(Path("themes").glob("homekit-bg-*.jpg")):
         color = background.stem.split("homekit-bg-")[-1]
         if color in BACKGROUND_COLORS:
@@ -82,7 +67,7 @@ for folder, fname in folder_fname:
                 else:
                     suffix = "-alternative"
 
-                with open("templates/theme.jinja2") as f:
+                with open("template.jinja2") as f:
                     template = jinja2.Template("".join(f.readlines()))
 
                 result = template.render(
@@ -90,10 +75,11 @@ for folder, fname in folder_fname:
                     folder=folder,
                     which=which,
                     app_header_background_color=app_header_background_color,
-                    background_jpg=background.stem,
+                    background_jpg=base64_encode_file(background),
+                    # background_jpg=str(background.name),
                     color=color,
                     suffix=suffix,
                 )
 
                 with fname.open("a") as f:
-                    f.write(result + "\n")
+                    f.write("\n" + result + "\n")

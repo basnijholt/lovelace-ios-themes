@@ -1,8 +1,0 @@
----
-# From https://github.com/basnijholt/lovelace-ios-themes
-
-backgrounds:
-{%- for name, encoded_file in backgrounds.items() %}
-  - background-name-{{name}}: &background-name-{{name}}
-      background-image: "center / cover no-repeat fixed url('{{encoded_file}}')"
-{%- endfor %}
