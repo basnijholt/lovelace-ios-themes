@@ -4,7 +4,6 @@
 
 from pathlib import Path
 
-import base64
 import jinja2
 import yaml
 from PIL import Image
@@ -15,7 +14,10 @@ with open("settings-light-dark.yaml", "r") as f:
 
 COMMIT = "a37376d918fcfe4785be99910dc9a7200ac37da9"
 
-BASE_URL = f"https://raw.githubusercontent.com/basnijholt/lovelace-ios-themes/{COMMIT}/themes"
+BASE_URL = (
+    f"https://raw.githubusercontent.com/basnijholt/lovelace-ios-themes/{COMMIT}/themes"
+)
+
 
 def parse(x):
     return x if "#" not in x else f'"{x}"'
@@ -30,6 +32,10 @@ def average_color(fname):
 
 def fname_to_url(fname):
     return f"{BASE_URL}/{fname.name}"
+
+
+def fname_to_local_path(folder, background):
+    return f"{folder}/themes/ios-themes/{background.name}"
 
 
 BACKGROUND_COLORS = {
@@ -59,10 +65,10 @@ for folder, fname in folder_fname:
         else:
             app_header_background_color = average_color(background)
         for which in ["light", "dark"]:
-            for state_icon_yellow in [False, True]:
+            for standard in [False, True]:
                 settings = {k: parse(v[which]) for k, v in all_settings.items()}
 
-                if state_icon_yellow:
+                if standard:
                     settings["state_icon_active_color"] = "rgba(255, 214, 10, 1)"
                     suffix = ""
                 else:
@@ -76,8 +82,9 @@ for folder, fname in folder_fname:
                     folder=folder,
                     which=which,
                     app_header_background_color=app_header_background_color,
-                    background_jpg=fname_to_url(background),
-                    # background_jpg=str(background.name),
+                    background=fname_to_url(background)
+                    if standard
+                    else fname_to_local_path(folder, background),
                     color=color,
                     suffix=suffix,
                 )
