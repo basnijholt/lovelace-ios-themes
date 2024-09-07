@@ -13,6 +13,9 @@ from PIL import ImageColor
 with open("settings-light-dark.yaml", "r") as f:
     all_settings = yaml.safe_load(f)
 
+COMMIT = "a37376d918fcfe4785be99910dc9a7200ac37da9"
+
+BASE_URL = f"https://raw.githubusercontent.com/basnijholt/lovelace-ios-themes/{COMMIT}/themes"
 
 def parse(x):
     return x if "#" not in x else f'"{x}"'
@@ -25,11 +28,9 @@ def average_color(fname):
     return "rgba({}, {}, {}, 0.4)".format(*rgb_color)
 
 
-def base64_encode_file(fname):
-    with open(fname, 'rb') as image_file:
-        extension = fname.suffix.split('.')[-1]
-        base64_utf8_str = base64.b64encode(image_file.read()).decode('utf-8')
-        return f'data:image/{extension};base64,{base64_utf8_str}'
+def fname_to_url(fname):
+    return f"{BASE_URL}/{fname.name}"
+
 
 BACKGROUND_COLORS = {
     # Suggested by @okets in issue #42
@@ -75,7 +76,7 @@ for folder, fname in folder_fname:
                     folder=folder,
                     which=which,
                     app_header_background_color=app_header_background_color,
-                    background_jpg=base64_encode_file(background),
+                    background_jpg=fname_to_url(background),
                     # background_jpg=str(background.name),
                     color=color,
                     suffix=suffix,
