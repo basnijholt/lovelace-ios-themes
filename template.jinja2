@@ -11,6 +11,7 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   secondary-background-color: {{ secondary_background_color }}
   divider-color: {{ divider_color }}  # from Apple systemGray {{ which }} mode
   accent-color: rgba(255, 159, 9, 1)
+  app-theme-color: {{ app_theme_color }}
   # Text
   primary-text-color: {{ primary_text_color }}
   secondary-text-color: {{ secondary_text_color }}
@@ -28,6 +29,7 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   state-icon-color: "#FFF"
   state-icon-active-color: {{ state_icon_active_color }}  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
+  state-inactive-color: var(--disabled-text-color)
   paper-item-icon-active-color: {{ state_icon_active_color }}  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFFFFF"
@@ -64,6 +66,8 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: {{ switch_checked_track_color }}  # from Apple systemGreen {{ which }} mode
   switch-checked-button-color: "#FFF"
+  switch-unchecked-track-color: var(--disabled-text-color)
+  switch-unchecked-button-color: "#FFF"
   # Dialog
   ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
   dialog-box-shadow: var(--ha-card-box-shadow)
