@@ -11,7 +11,6 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   secondary-background-color: {{ secondary_background_color }}
   divider-color: {{ divider_color }}  # from Apple systemGray {{ which }} mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: {{ primary_text_color }}
   secondary-text-color: {{ secondary_text_color }}
@@ -51,6 +50,8 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: {{ rgb_card_background }} # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"

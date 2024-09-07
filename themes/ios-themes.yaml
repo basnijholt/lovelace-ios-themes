@@ -13,7 +13,6 @@ ios-light-mode-blue-red-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -53,6 +52,8 @@ ios-light-mode-blue-red-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -127,7 +128,6 @@ ios-light-mode-blue-red:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -167,6 +167,8 @@ ios-light-mode-blue-red:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -241,7 +243,6 @@ ios-dark-mode-blue-red-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -281,6 +282,8 @@ ios-dark-mode-blue-red-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -355,7 +358,6 @@ ios-dark-mode-blue-red:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -395,6 +397,8 @@ ios-dark-mode-blue-red:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -469,7 +473,6 @@ ios-light-mode-dark-blue-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -509,6 +512,8 @@ ios-light-mode-dark-blue-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -583,7 +588,6 @@ ios-light-mode-dark-blue:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -623,6 +627,8 @@ ios-light-mode-dark-blue:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -697,7 +703,6 @@ ios-dark-mode-dark-blue-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -737,6 +742,8 @@ ios-dark-mode-dark-blue-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -811,7 +818,6 @@ ios-dark-mode-dark-blue:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -851,6 +857,8 @@ ios-dark-mode-dark-blue:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -925,7 +933,6 @@ ios-light-mode-dark-green-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -965,6 +972,8 @@ ios-light-mode-dark-green-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1039,7 +1048,6 @@ ios-light-mode-dark-green:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1079,6 +1087,8 @@ ios-light-mode-dark-green:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1153,7 +1163,6 @@ ios-dark-mode-dark-green-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1193,6 +1202,8 @@ ios-dark-mode-dark-green-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1267,7 +1278,6 @@ ios-dark-mode-dark-green:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1307,6 +1317,8 @@ ios-dark-mode-dark-green:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1381,7 +1393,6 @@ ios-light-mode-light-blue-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1421,6 +1432,8 @@ ios-light-mode-light-blue-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1495,7 +1508,6 @@ ios-light-mode-light-blue:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1535,6 +1547,8 @@ ios-light-mode-light-blue:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1609,7 +1623,6 @@ ios-dark-mode-light-blue-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1649,6 +1662,8 @@ ios-dark-mode-light-blue-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1723,7 +1738,6 @@ ios-dark-mode-light-blue:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1763,6 +1777,8 @@ ios-dark-mode-light-blue:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1837,7 +1853,6 @@ ios-light-mode-light-green-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1877,6 +1892,8 @@ ios-light-mode-light-green-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -1951,7 +1968,6 @@ ios-light-mode-light-green:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1991,6 +2007,8 @@ ios-light-mode-light-green:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2065,7 +2083,6 @@ ios-dark-mode-light-green-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2105,6 +2122,8 @@ ios-dark-mode-light-green-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2179,7 +2198,6 @@ ios-dark-mode-light-green:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2219,6 +2237,8 @@ ios-dark-mode-light-green:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2293,7 +2313,6 @@ ios-light-mode-orange-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -2333,6 +2352,8 @@ ios-light-mode-orange-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2407,7 +2428,6 @@ ios-light-mode-orange:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -2447,6 +2467,8 @@ ios-light-mode-orange:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2521,7 +2543,6 @@ ios-dark-mode-orange-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2561,6 +2582,8 @@ ios-dark-mode-orange-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2635,7 +2658,6 @@ ios-dark-mode-orange:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2675,6 +2697,8 @@ ios-dark-mode-orange:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2749,7 +2773,6 @@ ios-light-mode-red-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -2789,6 +2812,8 @@ ios-light-mode-red-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2863,7 +2888,6 @@ ios-light-mode-red:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -2903,6 +2927,8 @@ ios-light-mode-red:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(245, 245, 245) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -2977,7 +3003,6 @@ ios-dark-mode-red-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -3017,6 +3042,8 @@ ios-dark-mode-red-alternative:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
@@ -3091,7 +3118,6 @@ ios-dark-mode-red:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
-  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -3131,6 +3157,8 @@ ios-dark-mode-red:
   paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
+  ha-card-backdrop-filter: blur(20px)
+  ha-card-box-shadow: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
