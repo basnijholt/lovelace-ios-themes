@@ -72,6 +72,19 @@ ios-light-mode-blue-red-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -81,6 +94,10 @@ ios-light-mode-blue-red-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -169,6 +186,19 @@ ios-light-mode-blue-red:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -178,6 +208,10 @@ ios-light-mode-blue-red:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -266,6 +300,19 @@ ios-dark-mode-blue-red-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -275,6 +322,10 @@ ios-dark-mode-blue-red-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -363,6 +414,19 @@ ios-dark-mode-blue-red:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -372,6 +436,10 @@ ios-dark-mode-blue-red:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -460,6 +528,19 @@ ios-light-mode-dark-blue-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -469,6 +550,10 @@ ios-light-mode-dark-blue-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -557,6 +642,19 @@ ios-light-mode-dark-blue:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -566,6 +664,10 @@ ios-light-mode-dark-blue:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -654,6 +756,19 @@ ios-dark-mode-dark-blue-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -663,6 +778,10 @@ ios-dark-mode-dark-blue-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -751,6 +870,19 @@ ios-dark-mode-dark-blue:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -760,6 +892,10 @@ ios-dark-mode-dark-blue:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -848,6 +984,19 @@ ios-light-mode-dark-green-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -857,6 +1006,10 @@ ios-light-mode-dark-green-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -945,6 +1098,19 @@ ios-light-mode-dark-green:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -954,6 +1120,10 @@ ios-light-mode-dark-green:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1042,6 +1212,19 @@ ios-dark-mode-dark-green-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1051,6 +1234,10 @@ ios-dark-mode-dark-green-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1139,6 +1326,19 @@ ios-dark-mode-dark-green:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1148,6 +1348,10 @@ ios-dark-mode-dark-green:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1236,6 +1440,19 @@ ios-light-mode-light-blue-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1245,6 +1462,10 @@ ios-light-mode-light-blue-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1333,6 +1554,19 @@ ios-light-mode-light-blue:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1342,6 +1576,10 @@ ios-light-mode-light-blue:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1430,6 +1668,19 @@ ios-dark-mode-light-blue-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1439,6 +1690,10 @@ ios-dark-mode-light-blue-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1527,6 +1782,19 @@ ios-dark-mode-light-blue:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1536,6 +1804,10 @@ ios-dark-mode-light-blue:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1624,6 +1896,19 @@ ios-light-mode-light-green-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1633,6 +1918,10 @@ ios-light-mode-light-green-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1721,6 +2010,19 @@ ios-light-mode-light-green:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1730,6 +2032,10 @@ ios-light-mode-light-green:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1818,6 +2124,19 @@ ios-dark-mode-light-green-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1827,6 +2146,10 @@ ios-dark-mode-light-green-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1915,6 +2238,19 @@ ios-dark-mode-light-green:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1924,6 +2260,10 @@ ios-dark-mode-light-green:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2012,6 +2352,19 @@ ios-light-mode-orange-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2021,6 +2374,10 @@ ios-light-mode-orange-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2109,6 +2466,19 @@ ios-light-mode-orange:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2118,6 +2488,10 @@ ios-light-mode-orange:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2206,6 +2580,19 @@ ios-dark-mode-orange-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2215,6 +2602,10 @@ ios-dark-mode-orange-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2303,6 +2694,19 @@ ios-dark-mode-orange:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2312,6 +2716,10 @@ ios-dark-mode-orange:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2400,6 +2808,19 @@ ios-light-mode-red-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2409,6 +2830,10 @@ ios-light-mode-red-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2497,6 +2922,19 @@ ios-light-mode-red:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2506,6 +2944,10 @@ ios-light-mode-red:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2594,6 +3036,19 @@ ios-dark-mode-red-alternative:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2603,6 +3058,10 @@ ios-dark-mode-red-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2691,6 +3150,19 @@ ios-dark-mode-red:
   # Header
   app-header-backdrop-filter: var(--ha-card-backdrop-filter)
   app-header-edit-background-color: rgba(0, 0, 0, 0.2)
+  # Colors
+  red-color: "#FF453A"
+  pink-color: "#FF375F"
+  purple-color: "#BF5AF2"
+  indigo-color: "#5E5CE6"
+  blue-color: "#0A84FF"
+  light-blue-color: "#66D4CF"
+  cyan-color: "#5AC8F5"
+  teal-color: "#6AC4DC"
+  green-color: "#32D74B"
+  yellow-color: "#FFD60A"
+  orange-color: "#FF9F0A"
+  brown-color: "#AC8E68"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2700,6 +3172,10 @@ ios-dark-mode-red:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  mdc-theme-surface: var(--secondary-background-color) # this should be opaque as it's used by default for many overlays
+  material-background-color: var(--secondary-background-color)
+  mdc-checkbox-unchecked-color: "#FFF"
+  mdc-radio-unchecked-color: "#FFF"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
