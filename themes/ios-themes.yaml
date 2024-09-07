@@ -13,6 +13,7 @@ ios-light-mode-blue-red-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -64,6 +65,13 @@ ios-light-mode-blue-red-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -102,6 +110,7 @@ ios-light-mode-blue-red:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -153,6 +162,13 @@ ios-light-mode-blue-red:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -191,6 +207,7 @@ ios-dark-mode-blue-red-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -242,6 +259,13 @@ ios-dark-mode-blue-red-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -280,6 +304,7 @@ ios-dark-mode-blue-red:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -331,6 +356,13 @@ ios-dark-mode-blue-red:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -369,6 +401,7 @@ ios-light-mode-dark-blue-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -420,6 +453,13 @@ ios-light-mode-dark-blue-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -458,6 +498,7 @@ ios-light-mode-dark-blue:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -509,6 +550,13 @@ ios-light-mode-dark-blue:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -547,6 +595,7 @@ ios-dark-mode-dark-blue-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -598,6 +647,13 @@ ios-dark-mode-dark-blue-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -636,6 +692,7 @@ ios-dark-mode-dark-blue:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -687,6 +744,13 @@ ios-dark-mode-dark-blue:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -725,6 +789,7 @@ ios-light-mode-dark-green-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -776,6 +841,13 @@ ios-light-mode-dark-green-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -814,6 +886,7 @@ ios-light-mode-dark-green:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -865,6 +938,13 @@ ios-light-mode-dark-green:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -903,6 +983,7 @@ ios-dark-mode-dark-green-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -954,6 +1035,13 @@ ios-dark-mode-dark-green-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -992,6 +1080,7 @@ ios-dark-mode-dark-green:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1043,6 +1132,13 @@ ios-dark-mode-dark-green:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1081,6 +1177,7 @@ ios-light-mode-light-blue-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1132,6 +1229,13 @@ ios-light-mode-light-blue-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1170,6 +1274,7 @@ ios-light-mode-light-blue:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1221,6 +1326,13 @@ ios-light-mode-light-blue:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1259,6 +1371,7 @@ ios-dark-mode-light-blue-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1310,6 +1423,13 @@ ios-dark-mode-light-blue-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1348,6 +1468,7 @@ ios-dark-mode-light-blue:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1399,6 +1520,13 @@ ios-dark-mode-light-blue:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1437,6 +1565,7 @@ ios-light-mode-light-green-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1488,6 +1617,13 @@ ios-light-mode-light-green-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1526,6 +1662,7 @@ ios-light-mode-light-green:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1577,6 +1714,13 @@ ios-light-mode-light-green:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1615,6 +1759,7 @@ ios-dark-mode-light-green-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1666,6 +1811,13 @@ ios-dark-mode-light-green-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1704,6 +1856,7 @@ ios-dark-mode-light-green:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -1755,6 +1908,13 @@ ios-dark-mode-light-green:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1793,6 +1953,7 @@ ios-light-mode-orange-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1844,6 +2005,13 @@ ios-light-mode-orange-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1882,6 +2050,7 @@ ios-light-mode-orange:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -1933,6 +2102,13 @@ ios-light-mode-orange:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -1971,6 +2147,7 @@ ios-dark-mode-orange-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2022,6 +2199,13 @@ ios-dark-mode-orange-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2060,6 +2244,7 @@ ios-dark-mode-orange:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2111,6 +2296,13 @@ ios-dark-mode-orange:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2149,6 +2341,7 @@ ios-light-mode-red-alternative:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -2200,6 +2393,13 @@ ios-light-mode-red-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2238,6 +2438,7 @@ ios-light-mode-red:
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3)  # from Apple systemGray light mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -2289,6 +2490,13 @@ ios-light-mode-red:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#34c759"  # from Apple systemGreen light mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info
   paper-item-icon-color: "#333333"  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2327,6 +2535,7 @@ ios-dark-mode-red-alternative:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2378,6 +2587,13 @@ ios-dark-mode-red-alternative:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
@@ -2416,6 +2632,7 @@ ios-dark-mode-red:
   secondary-background-color: rgba(25, 25, 25, 0.9)
   divider-color: rgba(152, 152, 157, 0.3)  # from Apple systemGray dark mode
   accent-color: rgba(255, 159, 9, 1)
+  ha-card-backdrop-filter: blur(20px)
   # Text
   primary-text-color: "#FFF"
   secondary-text-color: "#d3d3d3"
@@ -2467,6 +2684,13 @@ ios-dark-mode-red:
   switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
   switch-checked-track-color: "#30d158"  # from Apple systemGreen dark mode
   switch-checked-button-color: "#FFF"
+  # Dialog
+  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  dialog-box-shadow: var(--ha-card-box-shadow)
+  ha-dialog-surface-background: var(--ha-card-background)
+  # Header
+  app-header-backdrop-filter: var(--ha-card-backdrop-filter)
+  app-header-edit-background-color: rgba(0, 0, 0, 0.2)
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
