@@ -30,11 +30,11 @@ def average_color(fname):
     return "rgba({}, {}, {}, 0.4)".format(*rgb_color)
 
 
-def fname_to_url(fname):
-    return f"{BASE_URL}/{fname.name}"
+def fname_to_url(background: Path):
+    return f"{BASE_URL}/{background.name}"
 
 
-def fname_to_local_path(folder, background):
+def fname_to_local_path(folder: str, background: Path):
     return f"{folder}/themes/ios-themes/{background.name}"
 
 
