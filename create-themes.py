@@ -35,7 +35,7 @@ def fname_to_url(background: Path):
 
 
 def fname_to_local_path(folder: str, background: Path):
-    return f"{folder}/themes/ios-themes/{background.name}"
+    return f"/{folder}/themes/ios-themes/{background.name}"
 
 
 BACKGROUND_COLORS = {
