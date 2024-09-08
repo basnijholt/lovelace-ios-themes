@@ -14,7 +14,7 @@ with open("settings-light-dark.yaml") as f:
 COMMIT = "a37376d918fcfe4785be99910dc9a7200ac37da9"
 
 BASE_URL = (
-    f"https://raw.githubusercontent.com/basnijholt/lovelace-ios-themes/{COMMIT}/themes"
+    f"https://cdn.jsdelivr.net/gh/basnijholt/lovelace-ios-themes@{COMMIT}/themes"
 )
 
 
