@@ -76,6 +76,8 @@ for background in sorted(Path("themes").glob("homekit-bg-*.jpg")):
                 **settings,
                 which=which,
                 app_header_background_color=app_header_background_color,
+                # TODO: Not sure about what app_theme_color should be
+                app_theme_color=app_header_background_color if which == "light" else "rgba(0, 0, 0)",
                 background=fname_to_url(background)
                 if standard
                 else fname_to_local_path(background),
