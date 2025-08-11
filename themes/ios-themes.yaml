@@ -88,6 +88,20 @@ ios-light-mode-blue-red-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - blue-red
@@ -177,6 +191,20 @@ ios-light-mode-blue-red:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - blue-red
@@ -266,6 +294,20 @@ ios-dark-mode-blue-red-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - blue-red
@@ -355,6 +397,20 @@ ios-dark-mode-blue-red:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - dark-blue
@@ -444,6 +500,20 @@ ios-light-mode-dark-blue-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - dark-blue
@@ -533,6 +603,20 @@ ios-light-mode-dark-blue:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - dark-blue
@@ -622,6 +706,20 @@ ios-dark-mode-dark-blue-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - dark-blue
@@ -711,6 +809,20 @@ ios-dark-mode-dark-blue:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - dark-green
@@ -800,6 +912,20 @@ ios-light-mode-dark-green-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - dark-green
@@ -889,6 +1015,20 @@ ios-light-mode-dark-green:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - dark-green
@@ -978,6 +1118,20 @@ ios-dark-mode-dark-green-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - dark-green
@@ -1067,6 +1221,20 @@ ios-dark-mode-dark-green:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - light-blue
@@ -1156,6 +1324,20 @@ ios-light-mode-light-blue-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - light-blue
@@ -1245,6 +1427,20 @@ ios-light-mode-light-blue:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - light-blue
@@ -1334,6 +1530,20 @@ ios-dark-mode-light-blue-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - light-blue
@@ -1423,6 +1633,20 @@ ios-dark-mode-light-blue:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - light-green
@@ -1512,6 +1736,20 @@ ios-light-mode-light-green-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - light-green
@@ -1601,6 +1839,20 @@ ios-light-mode-light-green:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - light-green
@@ -1690,6 +1942,20 @@ ios-dark-mode-light-green-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - light-green
@@ -1779,6 +2045,20 @@ ios-dark-mode-light-green:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - orange
@@ -1868,6 +2148,20 @@ ios-light-mode-orange-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - orange
@@ -1957,6 +2251,20 @@ ios-light-mode-orange:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - orange
@@ -2046,6 +2354,20 @@ ios-dark-mode-orange-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - orange
@@ -2135,6 +2457,20 @@ ios-dark-mode-orange:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - red
@@ -2224,6 +2560,20 @@ ios-light-mode-red-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Light Mode Theme - red
@@ -2313,6 +2663,20 @@ ios-light-mode-red:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ffaa33"
+  ha-color-primary-60: "#ffbb55"
+  ha-color-primary-70: "#ffcc77"
+  ha-color-primary-80: "#ffddaa"
+  ha-color-primary-90: "#ffeecc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - red
@@ -2402,6 +2766,20 @@ ios-dark-mode-red-alternative:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
 
 #
 # iOS Dark Mode Theme - red
@@ -2491,3 +2869,17 @@ ios-dark-mode-red:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
+  
+  # HA 2025.8+ Color Palette System
+  # Orange-based color palette for new button system and future components
+  ha-color-primary-0: "#1a0800"
+  ha-color-primary-1: "#331100"
+  ha-color-primary-20: "#663300"
+  ha-color-primary-30: "#994400"
+  ha-color-primary-40: "#ff9409"
+  ha-color-primary-50: "#ff9f09"
+  ha-color-primary-60: "#ffb333"
+  ha-color-primary-70: "#ffcc66"
+  ha-color-primary-80: "#ffe099"
+  ha-color-primary-90: "#fff0cc"
+  ha-color-primary-95: "#fff8e6"
