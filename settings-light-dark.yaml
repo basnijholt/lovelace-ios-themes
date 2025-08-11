@@ -58,3 +58,39 @@ markdown_code_background_color:
 code_editor_background_color:
   dark: '#161616'
   light: '#FFF'
+
+# HA 2025.8+ Color Palette System
+# Orange-based palette for iOS theme
+ha_color_primary_0:
+  dark: '#1a0800'  # Near-black with orange undertone
+  light: '#1a0800'  # Near-black with orange undertone
+ha_color_primary_1:
+  dark: '#331100'  # Very dark orange
+  light: '#331100'  # Very dark orange
+ha_color_primary_20:
+  dark: '#663300'  # Deep burnt orange
+  light: '#663300'  # Deep burnt orange
+ha_color_primary_30:
+  dark: '#994400'  # Rich orange
+  light: '#994400'  # Rich orange
+ha_color_primary_40:
+  dark: '#ff9409'  # Base iOS orange (light mode primary)
+  light: '#ff9409'  # Base iOS orange (light mode primary)
+ha_color_primary_50:
+  dark: '#ff9f09'  # iOS orange (dark mode primary)
+  light: '#ffaa33'  # Lighter orange
+ha_color_primary_60:
+  dark: '#ffb333'  # Warm light orange
+  light: '#ffbb55'  # Balanced light orange
+ha_color_primary_70:
+  dark: '#ffcc66'  # Soft orange, ideal for backgrounds
+  light: '#ffcc77'  # Gentle orange
+ha_color_primary_80:
+  dark: '#ffe099'  # Very light orange
+  light: '#ffddaa'  # Very light pastel orange
+ha_color_primary_90:
+  dark: '#fff0cc'  # Pale cream orange
+  light: '#ffeecc'  # Pale cream orange
+ha_color_primary_95:
+  dark: '#fff8e6'  # Almost white with faint orange tint
+  light: '#fff8e6'  # Almost white with faint orange tint
