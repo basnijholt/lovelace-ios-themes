@@ -28,15 +28,7 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   state-icon-color: "#FFF"
   state-icon-active-color: {{ state_icon_active_color }}  # or make light icons yellow when active: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
-  paper-item-icon-active-color: {{ state_icon_active_color }}  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
-  # Sliders
-  paper-slider-knob-color: "#FFFFFF"
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: {{ paper_slider_active_color }}  # from Apple systemBlue {{ which }} mode
-  paper-slider-secondary-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: rgba(255, 255, 255, 0.5)
-  paper-slider-font-color: "#000"
+  # Sliders (paper-slider-* removed in HA 2025.5; ha-slider follows primary/accent color)
   ha-slider-background: none !important
   # Labels
   label-badge-background-color: "#23232E"
@@ -44,30 +36,28 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   label-badge-red: {{ label_badge_red }}  # from Apple systemOrange {{ which }} mode
   # Cards
   card-background-color: var(--secondary-background-color)  # Unused entities table background
-  paper-listbox-background-color: var(--primary-background-color)
   ha-card-border-radius: 20px
   ha-card-background: {{  ha_card_background }}
-  paper-card-background-color: var(--ha-card-background)
   rgb-card-background-color: {{ rgb_card_background }} # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
   ha-card-border-width: 0  # https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82#event-7732695357
-  # Toggles
-  paper-toggle-button-checked-button-color: "#484848"
-  paper-toggle-button-checked-bar-color: "#484848"
-  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
-  paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
   # Table row
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
-  # Switches
-  switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
+  # Switches (paper-toggle-button-* removed in HA 2025.5)
+  switch-checked-color: "#30d257"
   switch-checked-track-color: {{ switch_checked_track_color }}  # from Apple systemGreen {{ which }} mode
   switch-checked-button-color: "#FFF"
   # Other
-  paper-dialog-background-color: {{ paper_dialog_background_color }}  # e.g., background of more-info
-  paper-item-icon-color: {{ paper_item_icon_color }}  # also should mini-media-player icon white (but doesn't work by itself)
+  dialog-background-color: {{ dialog_background_color }}  # e.g., background of more-info dialogs
+  ha-color-form-background: {{ form_background_color }}          # select/input bg (HA 2026.4+)
+  ha-color-form-background-hover: {{ form_background_color }}    # hover state
+  ha-color-form-background-disabled: {{ form_background_color }} # disabled state
   more-info-header-background: {{ more_info_header_background }}
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: {{ app_header_background_color }}
+  app-header-selection-bar-color: var(--accent-color)  # active view tab indicator bar (HA 2025.5+)
+  sl-color-primary-600: var(--accent-color)  # active view tab text/icon color (HA 2025.5+ sl-tab)
+  sl-color-neutral-600: var(--app-header-text-color)  # inactive view tab text/icon color (HA 2025.5+ sl-tab)
   markdown-code-background-color: {{ markdown_code_background_color }}
   code-editor-background-color: {{ code_editor_background_color }}
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
@@ -75,14 +65,4 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
-  # Added for https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  # TODO: add description for lines below. Suggested in https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/72
-  input-ink-color: var(--primary-text-color)
-  input-fill-color: transparent
-  input-disabled-fill-color: transparent
-  input-label-ink-color: var(--primary-text-color)
-  input-disabled-ink-color: var(--disabled-text-color)
-  input-dropdown-icon-color: var(--primary-text-color)
-  input-idle-line-color: var(--secondary-text-color)
-  input-hover-line-color: var(--secondary-text-color)
   codemirror-property: var(--accent-color)
