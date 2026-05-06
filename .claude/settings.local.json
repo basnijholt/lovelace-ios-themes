@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:community.home-assistant.io)",
+      "WebFetch(domain:developers.home-assistant.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install *)",
+      "Bash(python create-themes.py)",
+      "Bash(python3 -m pip install -r requirements.txt -q)",
+      "Bash(python3 create-themes.py)",
+      "PowerShell(cd \"C:\\\\Users\\\\L\\\\OneDrive\\\\Documents\\\\GitHub\\\\lovelace-ios-themes\"; python create-themes.py; Write-Output \"Exit: $LASTEXITCODE\")"
+    ]
+  }
+}

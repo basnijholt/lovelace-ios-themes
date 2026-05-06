@@ -85,4 +85,9 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   input-dropdown-icon-color: var(--primary-text-color)
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
+  # Form element backgrounds — introduced in HA 2026.4; defaults are near-white
+  # which makes select/dropdown boxes unreadable in dark themes
+  ha-color-form-background: var(--secondary-background-color)
+  ha-color-form-background-hover: var(--primary-background-color)
+  ha-color-form-background-disabled: var(--secondary-background-color)
   codemirror-property: var(--accent-color)
