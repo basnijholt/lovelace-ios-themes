@@ -10,7 +10,8 @@
       "Bash(python3 create-themes.py)",
       "PowerShell(cd \"C:\\\\Users\\\\L\\\\OneDrive\\\\Documents\\\\GitHub\\\\lovelace-ios-themes\"; python create-themes.py; Write-Output \"Exit: $LASTEXITCODE\")",
       "WebSearch",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp"
     ]
   }
 }

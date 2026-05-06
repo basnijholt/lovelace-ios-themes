@@ -88,7 +88,32 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   input-hover-line-color: var(--secondary-text-color)
   # Form element backgrounds — introduced in HA 2026.4; defaults are near-white
   # which makes select/dropdown boxes unreadable in dark themes
-  ha-color-form-background: var(--secondary-background-color)
-  ha-color-form-background-hover: var(--primary-background-color)
-  ha-color-form-background-disabled: var(--secondary-background-color)
+  ha-color-form-background: {{ form_background_color }}
+  ha-color-form-background-hover: {{ form_background_color }}
+  ha-color-form-background-disabled: {{ form_background_color }}
+  # Combo-box (ha-combo-box) dropdown item hover/selected highlight fix
+  md-list-container-color: none
+  wa-color-neutral-fill-normal: {{ wa_color_neutral_fill_normal }}
+  ha-color-on-neutral-normal: {{ ha_color_on_neutral_normal }}
+  ha-color-fill-primary-quiet-resting: {{ ha_color_fill_primary_quiet_resting }}
+  ha-color-fill-primary-quiet-hover: {{ ha_color_fill_primary_quiet_hover }}
+  # List section headers (Devices, Areas, etc.) use neutral-fill-quiet defaults which are near-white
+  ha-color-fill-neutral-quiet-resting: {{ ha_color_fill_neutral_quiet_resting }}
+  ha-color-fill-neutral-quiet-hover: {{ ha_color_fill_neutral_quiet_hover }}
+  ha-color-fill-neutral-normal-resting: {{ ha_color_fill_neutral_normal_resting }}
+  ha-color-fill-neutral-normal-hover: {{ ha_color_fill_neutral_normal_hover }}
+  # mdc-select focused state — themed to accent color
+  mdc-select-focused-label-color: var(--accent-color)
+  mdc-select-focused-dropdown-icon-color: var(--accent-color)
+  mdc-select-focused-line-color: var(--accent-color)
+  # Web Awesome brand/button colors — override default cyan to match iOS orange
+  wa-color-brand-fill-loud: var(--primary-color)
+  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
+  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
+  wa-color-brand-on-loud: "#FFF"
+  wa-color-brand-on-normal: var(--primary-color)
+  wa-color-brand-on-quiet: var(--primary-color)
+  wa-color-brand-border-loud: var(--primary-color)
+  wa-color-brand-border-normal: var(--primary-color)
+  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)

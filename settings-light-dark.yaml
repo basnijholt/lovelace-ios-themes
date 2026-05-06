@@ -1,3 +1,30 @@
+form_background_color:
+  dark: var(--primary-background-color)
+  light: var(--secondary-background-color)
+wa_color_neutral_fill_normal:
+  dark: '#FFFFFF14'
+  light: rgba(0, 0, 0, 0.05)
+ha_color_on_neutral_normal:
+  dark: '#FFFFFF'
+  light: var(--ha-color-neutral-40)
+ha_color_fill_primary_quiet_resting:
+  dark: rgba(255, 255, 255, 0.12)
+  light: var(--ha-color-primary-95)
+ha_color_fill_primary_quiet_hover:
+  dark: rgba(255, 255, 255, 0.20)
+  light: var(--ha-color-primary-90)
+ha_color_fill_neutral_quiet_resting:
+  dark: rgba(255, 255, 255, 0.05)
+  light: var(--ha-color-neutral-95)
+ha_color_fill_neutral_quiet_hover:
+  dark: rgba(255, 255, 255, 0.08)
+  light: var(--ha-color-neutral-90)
+ha_color_fill_neutral_normal_resting:
+  dark: rgba(255, 255, 255, 0.08)
+  light: var(--ha-color-neutral-90)
+ha_color_fill_neutral_normal_hover:
+  dark: rgba(255, 255, 255, 0.12)
+  light: var(--ha-color-neutral-80)
 divider_color:
   dark: rgba(152, 152, 157, 0.3)
   light: rgba(142, 142, 147, 0.3)
