@@ -73,6 +73,10 @@ ios-light-mode-blue-red-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -162,6 +166,10 @@ ios-light-mode-blue-red:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -251,6 +259,10 @@ ios-dark-mode-blue-red-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -340,6 +352,10 @@ ios-dark-mode-blue-red:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -429,6 +445,10 @@ ios-light-mode-dark-blue-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -518,6 +538,10 @@ ios-light-mode-dark-blue:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -607,6 +631,10 @@ ios-dark-mode-dark-blue-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -696,6 +724,10 @@ ios-dark-mode-dark-blue:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -785,6 +817,10 @@ ios-light-mode-dark-green-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -874,6 +910,10 @@ ios-light-mode-dark-green:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -963,6 +1003,10 @@ ios-dark-mode-dark-green-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1052,6 +1096,10 @@ ios-dark-mode-dark-green:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1141,6 +1189,10 @@ ios-light-mode-light-blue-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1230,6 +1282,10 @@ ios-light-mode-light-blue:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1319,6 +1375,10 @@ ios-dark-mode-light-blue-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1408,6 +1468,10 @@ ios-dark-mode-light-blue:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1497,6 +1561,10 @@ ios-light-mode-light-green-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1586,6 +1654,10 @@ ios-light-mode-light-green:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1675,6 +1747,10 @@ ios-dark-mode-light-green-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1764,6 +1840,10 @@ ios-dark-mode-light-green:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1853,6 +1933,10 @@ ios-light-mode-orange-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1942,6 +2026,10 @@ ios-light-mode-orange:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2031,6 +2119,10 @@ ios-dark-mode-orange-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2120,6 +2212,10 @@ ios-dark-mode-orange:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2209,6 +2305,10 @@ ios-light-mode-red-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2298,6 +2398,10 @@ ios-light-mode-red:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2387,6 +2491,10 @@ ios-dark-mode-red-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2476,6 +2584,10 @@ ios-dark-mode-red:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
+  # Forms
+  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
+  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
+  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
