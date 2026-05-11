@@ -46,6 +46,9 @@ sidebar_selected_icon_color:
 sidebar_text_color:
   dark: '#F1F1F1'
   light: var(--light-primary-color)
+state_icon_color:
+  dark: '#FFF'
+  light: '#333333'
 state_icon_active_color:
   dark: '#FFF'
   light: '#333333'
@@ -58,3 +61,36 @@ markdown_code_background_color:
 code_editor_background_color:
   dark: '#161616'
   light: '#FFF'
+ha_color_primary_05:
+  dark: '#1a0800'
+  light: '#1a0800'
+ha_color_primary_10:
+  dark: '#331100'
+  light: '#331100'
+ha_color_primary_20:
+  dark: '#663300'
+  light: '#663300'
+ha_color_primary_30:
+  dark: '#994400'
+  light: '#994400'
+ha_color_primary_40:
+  dark: '#ff9409'
+  light: '#ff9409'
+ha_color_primary_50:
+  dark: '#ff9f09'
+  light: '#ff9f09'
+ha_color_primary_60:
+  dark: '#ffb333'
+  light: '#ffb333'
+ha_color_primary_70:
+  dark: '#ffcc66'
+  light: '#ffcc66'
+ha_color_primary_80:
+  dark: '#ffe099'
+  light: '#ffe099'
+ha_color_primary_90:
+  dark: '#fff0cc'
+  light: '#fff0cc'
+ha_color_primary_95:
+  dark: '#fff8e6'
+  light: '#fff8e6'
