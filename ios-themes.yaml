@@ -74,10 +74,6 @@ ios-light-mode-blue-red-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -112,16 +108,6 @@ ios-light-mode-blue-red-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -198,10 +184,6 @@ ios-light-mode-blue-red:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -236,16 +218,6 @@ ios-light-mode-blue-red:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -322,10 +294,6 @@ ios-dark-mode-blue-red-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -360,16 +328,6 @@ ios-dark-mode-blue-red-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -446,10 +404,6 @@ ios-dark-mode-blue-red:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -484,16 +438,6 @@ ios-dark-mode-blue-red:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -570,10 +514,6 @@ ios-light-mode-dark-blue-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -608,16 +548,6 @@ ios-light-mode-dark-blue-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -694,10 +624,6 @@ ios-light-mode-dark-blue:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -732,16 +658,6 @@ ios-light-mode-dark-blue:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -818,10 +734,6 @@ ios-dark-mode-dark-blue-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -856,16 +768,6 @@ ios-dark-mode-dark-blue-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -942,10 +844,6 @@ ios-dark-mode-dark-blue:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -980,16 +878,6 @@ ios-dark-mode-dark-blue:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1066,10 +954,6 @@ ios-light-mode-dark-green-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1104,16 +988,6 @@ ios-light-mode-dark-green-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1190,10 +1064,6 @@ ios-light-mode-dark-green:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1228,16 +1098,6 @@ ios-light-mode-dark-green:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1314,10 +1174,6 @@ ios-dark-mode-dark-green-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1352,16 +1208,6 @@ ios-dark-mode-dark-green-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1438,10 +1284,6 @@ ios-dark-mode-dark-green:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1476,16 +1318,6 @@ ios-dark-mode-dark-green:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1562,10 +1394,6 @@ ios-light-mode-light-blue-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1600,16 +1428,6 @@ ios-light-mode-light-blue-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1686,10 +1504,6 @@ ios-light-mode-light-blue:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1724,16 +1538,6 @@ ios-light-mode-light-blue:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1810,10 +1614,6 @@ ios-dark-mode-light-blue-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1848,16 +1648,6 @@ ios-dark-mode-light-blue-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -1934,10 +1724,6 @@ ios-dark-mode-light-blue:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -1972,16 +1758,6 @@ ios-dark-mode-light-blue:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2058,10 +1834,6 @@ ios-light-mode-light-green-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2096,16 +1868,6 @@ ios-light-mode-light-green-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2182,10 +1944,6 @@ ios-light-mode-light-green:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2220,16 +1978,6 @@ ios-light-mode-light-green:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2306,10 +2054,6 @@ ios-dark-mode-light-green-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2344,16 +2088,6 @@ ios-dark-mode-light-green-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2430,10 +2164,6 @@ ios-dark-mode-light-green:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2468,16 +2198,6 @@ ios-dark-mode-light-green:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2554,10 +2274,6 @@ ios-light-mode-orange-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2592,16 +2308,6 @@ ios-light-mode-orange-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2678,10 +2384,6 @@ ios-light-mode-orange:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2716,16 +2418,6 @@ ios-light-mode-orange:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2802,10 +2494,6 @@ ios-dark-mode-orange-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2840,16 +2528,6 @@ ios-dark-mode-orange-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -2926,10 +2604,6 @@ ios-dark-mode-orange:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -2964,16 +2638,6 @@ ios-dark-mode-orange:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -3050,10 +2714,6 @@ ios-light-mode-red-alternative:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -3088,16 +2748,6 @@ ios-light-mode-red-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -3174,10 +2824,6 @@ ios-light-mode-red:
   markdown-code-background-color: "#FFFFFF"
   code-editor-background-color: "#FFF"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -3212,16 +2858,6 @@ ios-light-mode-red:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -3298,10 +2934,6 @@ ios-dark-mode-red-alternative:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -3336,16 +2968,6 @@ ios-dark-mode-red-alternative:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
 
 #
@@ -3422,10 +3044,6 @@ ios-dark-mode-red:
   markdown-code-background-color: "#464646"
   code-editor-background-color: "#161616"
   clear-background-color: var(--ha-card-background)  # see https://github.com/basnijholt/lovelace-ios-themes/issues/64
-  # Forms
-  ha-color-form-background: rgba(0, 0, 0, 0)  # HA 2026.4 ha-input background
-  ha-color-form-background-hover: rgba(255, 255, 255, 0.05)
-  ha-color-form-background-disabled: rgba(0, 0, 0, 0.1)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -3460,14 +3078,4 @@ ios-dark-mode-red:
   mdc-select-focused-label-color: var(--accent-color)
   mdc-select-focused-dropdown-icon-color: var(--accent-color)
   mdc-select-focused-line-color: var(--accent-color)
-  # Web Awesome brand/button colors — override default cyan to match iOS orange
-  wa-color-brand-fill-loud: var(--primary-color)
-  wa-color-brand-fill-normal: rgba(255, 159, 9, 0.25)
-  wa-color-brand-fill-quiet: rgba(255, 159, 9, 0.10)
-  wa-color-brand-on-loud: "#FFF"
-  wa-color-brand-on-normal: var(--primary-color)
-  wa-color-brand-on-quiet: var(--primary-color)
-  wa-color-brand-border-loud: var(--primary-color)
-  wa-color-brand-border-normal: var(--primary-color)
-  wa-color-brand-border-quiet: rgba(255, 159, 9, 0.5)
   codemirror-property: var(--accent-color)
